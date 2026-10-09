@@ -1,0 +1,22 @@
+﻿> Get-PhysicalDisk | Select-Object DeviceId,FriendlyName,MediaType,BusType,Size
+
+
+DeviceId     : 0
+FriendlyName : NVMe WD PC SN560 SDDPNQE-1T00-1002
+MediaType    : SSD
+BusType      : NVMe
+Size         : 1024209543168
+
+
+
+
+> Get-Volume -DriveLetter C | Select-Object DriveLetter,Size,SizeRemaining
+
+
+DriveLetter   : C
+Size          : 1023176339456
+SizeRemaining : 316302729216
+
+
+
+

@@ -1,0 +1,11 @@
+﻿> Get-CimInstance Win32_Processor | Select-Object VirtualizationFirmwareEnabled
+
+
+VirtualizationFirmwareEnabled : False
+
+
+
+
+> (Get-CimInstance Win32_ComputerSystem).HypervisorPresent
+True
+

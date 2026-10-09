@@ -1,0 +1,21 @@
+﻿> Get-CimInstance Win32_PhysicalMemory | Select-Object BankLabel,Capacity,Speed,Manufacturer,PartNumber
+
+
+BankLabel    : BANK 0
+Capacity     : 8589934592
+Speed        : 3200
+Manufacturer : SK Hynix
+PartNumber   : HMAG68EXNSA051N     
+
+BankLabel    : BANK 0
+Capacity     : 8589934592
+Speed        : 3200
+Manufacturer : SK Hynix
+PartNumber   : HMAG68EXNSA051N     
+
+
+
+
+> (Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory
+16788893696
+
