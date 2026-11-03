@@ -123,7 +123,7 @@ Click **New**:
 New-NetFirewallRule -DisplayName "Allow ping in (ICMPv4)" -Protocol ICMPv4 -IcmpType 8 -Direction Inbound -Action Allow
 ```
 
-Then repeat step 4.
+Then repeat point 4 above.
 
 Why: this opens only the "are you there" message (ICMP echo), not the whole computer.
 
