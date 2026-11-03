@@ -1,0 +1,87 @@
+=== Linux guest ===
+$ ping -c 4 10.0.2.4
+PING 10.0.2.4 (10.0.2.4) 56(84) bytes of data.
+64 bytes from 10.0.2.4: icmp_seq=1 ttl=128 time=0.829 ms
+64 bytes from 10.0.2.4: icmp_seq=2 ttl=128 time=0.855 ms
+64 bytes from 10.0.2.4: icmp_seq=3 ttl=128 time=0.693 ms
+64 bytes from 10.0.2.4: icmp_seq=4 ttl=128 time=0.508 ms
+
+--- 10.0.2.4 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 8888ms
+rtt min/avg/max/mdev = 0.508/0.721/0.855/0.137 ms
+
+$ ping -c 4 1.1.1.1
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=64 time=426 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=64 time=496 ms
+64 bytes from 1.1.1.1: icmp_seq=3 ttl=64 time=73.1 ms
+64 bytes from 1.1.1.1: icmp_seq=4 ttl=64 time=66.2 ms
+
+--- 1.1.1.1 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 18761ms
+rtt min/avg/max/mdev = 66.219/265.478/496.145/197.364 ms
+
+$ ping -c 4 example.com
+PING example.com (8.47.69.0) 56(84) bytes of data.
+64 bytes from 8.47.69.0: icmp_seq=1 ttl=64 time=253 ms
+64 bytes from 8.47.69.0: icmp_seq=2 ttl=64 time=212 ms
+64 bytes from 8.47.69.0: icmp_seq=3 ttl=64 time=84.4 ms
+64 bytes from 8.47.69.0: icmp_seq=4 ttl=64 time=103 ms
+
+--- example.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 14324ms
+rtt min/avg/max/mdev = 84.448/162.989/252.930/71.152 ms
+
+
+=== Windows guest ===
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::181b:f857:121:1825%12
+   IPv4 Address. . . . . . . . . . . : 10.0.2.4
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.0.2.1
+
+> ping 10.0.2.3
+
+Pinging 10.0.2.3 with 32 bytes of data:
+Reply from 10.0.2.3: bytes=32 time=1ms TTL=64
+Reply from 10.0.2.3: bytes=32 time=2ms TTL=64
+Reply from 10.0.2.3: bytes=32 time=1ms TTL=64
+Reply from 10.0.2.3: bytes=32 time<1ms TTL=64
+
+Ping statistics for 10.0.2.3:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 2ms, Average = 1ms
+
+> ping 1.1.1.1
+
+Pinging 1.1.1.1 with 32 bytes of data:
+Reply from 1.1.1.1: bytes=32 time=472ms TTL=128
+Reply from 1.1.1.1: bytes=32 time=75ms TTL=128
+Reply from 1.1.1.1: bytes=32 time=206ms TTL=128
+Reply from 1.1.1.1: bytes=32 time=210ms TTL=128
+
+Ping statistics for 1.1.1.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 75ms, Maximum = 472ms, Average = 240ms
+
+> ping example.com
+
+Pinging example.com [8.6.112.0] with 32 bytes of data:
+Reply from 8.6.112.0: bytes=32 time=129ms TTL=128
+Reply from 8.6.112.0: bytes=32 time=301ms TTL=128
+Reply from 8.6.112.0: bytes=32 time=85ms TTL=128
+Reply from 8.6.112.0: bytes=32 time=77ms TTL=128
+
+Ping statistics for 8.6.112.0:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 77ms, Maximum = 301ms, Average = 148ms
+

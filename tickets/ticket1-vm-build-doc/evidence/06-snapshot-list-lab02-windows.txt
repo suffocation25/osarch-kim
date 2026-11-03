@@ -1,0 +1,2 @@
+﻿   Name: clean (UUID: b6234b06-9a5e-4575-aff7-4d2495c05874) *
+   Description: Clean state for Ticket 1

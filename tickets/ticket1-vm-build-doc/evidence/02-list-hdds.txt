@@ -1,0 +1,27 @@
+﻿UUID:           84e38d6b-770d-45dd-8ac2-22f46bf2d5d7
+Parent UUID:    base
+State:          created
+Type:           normal (base)
+Location:       C:\Users\Kanat\VirtualBox VMs\KimAmirOSA25\KimAmirOSA25.vdi
+Storage format: VDI
+Capacity:       25600 MBytes
+Encryption:     disabled
+
+UUID:           1ff4a41e-63c6-487d-9f87-3ee2c25e7140
+Parent UUID:    84e38d6b-770d-45dd-8ac2-22f46bf2d5d7
+State:          created
+Type:           normal (differencing)
+Location:       C:\Users\Kanat\VirtualBox VMs\KimAmirOSA25\Snapshots/{1ff4a41e-63c6-487d-9f87-3ee2c25e7140}.vdi
+Storage format: VDI
+Capacity:       25600 MBytes
+Encryption:     disabled
+
+UUID:           a8957290-2748-40ba-beb9-8b7d75862b7b
+Parent UUID:    base
+State:          created
+Type:           normal (base)
+Location:       C:\Users\Kanat\VirtualBox VMs\lab02-windows\lab02-windows.vdi
+Storage format: VDI
+Capacity:       81920 MBytes
+Encryption:     disabled
+

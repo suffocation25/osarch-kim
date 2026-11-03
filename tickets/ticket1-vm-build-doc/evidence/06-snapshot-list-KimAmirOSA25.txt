@@ -1,0 +1,3 @@
+﻿   Name: clean-install (UUID: 72813a4a-5308-4b34-8994-8680d1c8ca78)
+      Name: clean (UUID: defc9840-1bc9-452c-bd06-7b734dd99d97) *
+      Description: Clean state for Ticket 1

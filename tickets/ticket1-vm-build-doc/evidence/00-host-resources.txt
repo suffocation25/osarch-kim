@@ -1,0 +1,10 @@
+﻿Date: 2026-11-03 12:20
+Host OS: Майкрософт Windows 11 Pro 10.0.26200
+CPU: 12th Gen Intel(R) Core(TM) i7-12700H, cores 14, logical 20
+RAM total (GiB): 15.64
+RAM free (GiB): 6.07
+RAM used (GiB): 9.57
+Disk C used (GiB): 646.9
+Disk C free (GiB): 306
+VirtualBox: 7.2.20r175154
+Running VMs at measurement time: none

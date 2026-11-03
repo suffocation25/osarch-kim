@@ -1,0 +1,13 @@
+﻿UUID:           1ff4a41e-63c6-487d-9f87-3ee2c25e7140
+Parent UUID:    84e38d6b-770d-45dd-8ac2-22f46bf2d5d7
+State:          created
+Type:           normal (differencing)
+Auto-Reset:     off
+Location:       C:\Users\Kanat\VirtualBox VMs\KimAmirOSA25\Snapshots/{1ff4a41e-63c6-487d-9f87-3ee2c25e7140}.vdi
+Storage format: VDI
+Format variant: differencing default
+Capacity:       25600 MBytes
+Size on disk:   433 MBytes
+Encryption:     disabled
+Property:       AllocationBlockSize=1048576
+In use by VMs:  KimAmirOSA25 (UUID: 294db0f0-c352-44d3-9b9c-b43600612389)

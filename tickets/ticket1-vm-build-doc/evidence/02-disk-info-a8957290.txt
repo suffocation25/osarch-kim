@@ -1,0 +1,12 @@
+﻿UUID:           a8957290-2748-40ba-beb9-8b7d75862b7b
+Parent UUID:    base
+State:          created
+Type:           normal (base)
+Location:       C:\Users\Kanat\VirtualBox VMs\lab02-windows\lab02-windows.vdi
+Storage format: VDI
+Format variant: dynamic default
+Capacity:       81920 MBytes
+Size on disk:   30575 MBytes
+Encryption:     disabled
+Property:       AllocationBlockSize=1048576
+In use by VMs:  lab02-windows (UUID: 9f175c68-6a88-4912-a90b-60cfe5be1131)
