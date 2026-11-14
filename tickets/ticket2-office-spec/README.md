@@ -61,4 +61,4 @@ I would ask the director the questions from section 2 before choosing any parts,
 
 ## AI use
 
-I used an AI assistant to help plan the builds, find prices and draft the text. I checked the numbers and rewrote the answers in my own words.
+I used an AI assistant to help plan the builds. I checked the numbers and rewrote the answers in my own words.
