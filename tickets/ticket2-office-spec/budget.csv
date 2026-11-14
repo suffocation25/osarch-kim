@@ -1,0 +1,43 @@
+role,component,model,price_kzt,source,date
+accountant,CPU,"AMD Ryzen 5 7600X AM5 OEM",94200,https://shop.kz/offer/protsessor-amd-ryzen-5-7600x-am5-oem/,2026-11-14
+accountant,CPU cooler,"ID-Cooling SE-214-XT Basic",6600,https://shop.kz/offer/kuler-id-cooling-se-214-xt-basic/,2026-11-14
+accountant,Motherboard,"MSI PRO B650M-P AM5 (micro-ATX, DDR5)",61990,https://shop.kz/offer/materinskaya-plata-msi-pro-b650m-p-am5/,2026-11-14
+accountant,Memory,"Kingston Fury Beast DDR5-5200 2x8 GB (KF552C40BBK2-16)",159990,https://shop.kz/offer/ddr-5-dimm-16-gb-5200-mhz-kingston-fury-beast-2x-8-gb-kit-box-kf552c40bbk2-16/,2026-11-14
+accountant,SSD,"Kingston NV3 1 TB M.2 PCIe 4.0",78990,https://shop.kz/offer/ssd-nakopitel-1-tb-kingston-nv3-m-2-pcie-4-0/,2026-11-14
+accountant,Power supply,"MSI MAG A650BN 650 W",24590,https://shop.kz/offer/blok-pitaniya-atx-650-w-msi-mag-a650bn/,2026-11-14
+accountant,Case,"Ocypus Gamma C50 WH ARGB White (micro-ATX)",17990,https://shop.kz/offer/korpus-ocypus-gamma-c50-wh-argb-white/,2026-11-14
+accountant,Monitor,"Qmax 24UM50HDM 23.8 in IPS 1920x1080 120 Hz",39990,https://shop.kz/offer/monitor-23-8-qmax-24um50hdm-black/,2026-11-14
+accountant,Operating system,"Microsoft Windows 11 Professional 64-bit USB (retail)",123990,https://shop.kz/offer/microsoft-windows-11-professional-64-bit-usb/,2026-11-14
+accountant,TOTAL,,608330,,
+sales,CPU,"AMD Ryzen 5 7600X AM5 OEM",94200,https://shop.kz/offer/protsessor-amd-ryzen-5-7600x-am5-oem/,2026-11-14
+sales,CPU cooler,"ID-Cooling SE-214-XT Basic",6600,https://shop.kz/offer/kuler-id-cooling-se-214-xt-basic/,2026-11-14
+sales,Motherboard,"MSI PRO B650M-P AM5 (micro-ATX, DDR5)",61990,https://shop.kz/offer/materinskaya-plata-msi-pro-b650m-p-am5/,2026-11-14
+sales,Memory,"Kingston Fury Beast DDR5-5200 2x8 GB (KF552C40BBK2-16)",159990,https://shop.kz/offer/ddr-5-dimm-16-gb-5200-mhz-kingston-fury-beast-2x-8-gb-kit-box-kf552c40bbk2-16/,2026-11-14
+sales,SSD,"Kingston NV3 1 TB M.2 PCIe 4.0",78990,https://shop.kz/offer/ssd-nakopitel-1-tb-kingston-nv3-m-2-pcie-4-0/,2026-11-14
+sales,Power supply,"MSI MAG A650BN 650 W",24590,https://shop.kz/offer/blok-pitaniya-atx-650-w-msi-mag-a650bn/,2026-11-14
+sales,Case,"Ocypus Gamma C50 WH ARGB White (micro-ATX)",17990,https://shop.kz/offer/korpus-ocypus-gamma-c50-wh-argb-white/,2026-11-14
+sales,Monitor,"Qmax 24UM50HDM 23.8 in IPS 1920x1080 120 Hz",39990,https://shop.kz/offer/monitor-23-8-qmax-24um50hdm-black/,2026-11-14
+sales,Operating system,"Microsoft Windows 11 Professional 64-bit USB (retail)",123990,https://shop.kz/offer/microsoft-windows-11-professional-64-bit-usb/,2026-11-14
+sales,TOTAL,,608330,,
+webdev,CPU,"AMD Ryzen 5 7600X AM5 OEM",94200,https://shop.kz/offer/protsessor-amd-ryzen-5-7600x-am5-oem/,2026-11-14
+webdev,CPU cooler,"ID-Cooling SE-214-XT Basic",6600,https://shop.kz/offer/kuler-id-cooling-se-214-xt-basic/,2026-11-14
+webdev,Motherboard,"MSI PRO B650M-P AM5 (micro-ATX, DDR5)",61990,https://shop.kz/offer/materinskaya-plata-msi-pro-b650m-p-am5/,2026-11-14
+webdev,Memory,"Team Group T-Force Delta RGB DDR5-6000 2x16 GB",324990,https://shop.kz/offer/ddr-5-dimm-32-gb-6000-mhz-team-group-t-force-delta-rgb-2x-16-gb-kit-black-box/,2026-11-14
+webdev,SSD,"Kingston NV3 1 TB M.2 PCIe 4.0",78990,https://shop.kz/offer/ssd-nakopitel-1-tb-kingston-nv3-m-2-pcie-4-0/,2026-11-14
+webdev,Power supply,"MSI MAG A650BN 650 W",24590,https://shop.kz/offer/blok-pitaniya-atx-650-w-msi-mag-a650bn/,2026-11-14
+webdev,Case,"Ocypus Gamma C50 WH ARGB White (micro-ATX)",17990,https://shop.kz/offer/korpus-ocypus-gamma-c50-wh-argb-white/,2026-11-14
+webdev,Monitor,"Qmax 24UM50HDM 23.8 in IPS 1920x1080 120 Hz",39990,https://shop.kz/offer/monitor-23-8-qmax-24um50hdm-black/,2026-11-14
+webdev,Operating system,"Ubuntu Desktop LTS (free, open-source licence)",0,https://ubuntu.com/download/desktop,2026-11-14
+webdev,TOTAL,,649340,,
+designer,CPU,"AMD Ryzen 5 7600X AM5 OEM",94200,https://shop.kz/offer/protsessor-amd-ryzen-5-7600x-am5-oem/,2026-11-14
+designer,CPU cooler,"ID-Cooling SE-214-XT Basic",6600,https://shop.kz/offer/kuler-id-cooling-se-214-xt-basic/,2026-11-14
+designer,Motherboard,"MSI PRO B650M-P AM5 (micro-ATX, DDR5)",61990,https://shop.kz/offer/materinskaya-plata-msi-pro-b650m-p-am5/,2026-11-14
+designer,Memory,"Team Group T-Force Delta RGB DDR5-6000 2x16 GB",324990,https://shop.kz/offer/ddr-5-dimm-32-gb-6000-mhz-team-group-t-force-delta-rgb-2x-16-gb-kit-black-box/,2026-11-14
+designer,SSD,"Kingston NV3 1 TB M.2 PCIe 4.0",78990,https://shop.kz/offer/ssd-nakopitel-1-tb-kingston-nv3-m-2-pcie-4-0/,2026-11-14
+designer,GPU,"Gainward GeForce RTX 4060 Ti Pegasus 8 GB",259990,https://shop.kz/offer/videokarta-gainward-rtx-4060-ti-pegasus-8-gb-geforce-rtx-4060-ti/,2026-11-14
+designer,Power supply,"MSI MAG A650BN 650 W",24590,https://shop.kz/offer/blok-pitaniya-atx-650-w-msi-mag-a650bn/,2026-11-14
+designer,Case,"Ocypus Gamma C50 WH ARGB White (micro-ATX)",17990,https://shop.kz/offer/korpus-ocypus-gamma-c50-wh-argb-white/,2026-11-14
+designer,Monitor,"Lenovo Legion 27Q-10 27 in IPS 2560x1440 240 Hz",135990,https://shop.kz/offer/monitor-27-lenovo-legion-27q-10-black/,2026-11-14
+designer,Operating system,"Microsoft Windows 11 Professional 64-bit USB (retail)",123990,https://shop.kz/offer/microsoft-windows-11-professional-64-bit-usb/,2026-11-14
+designer,TOTAL,,1129320,,
+all,GRAND TOTAL,,2995320,,
