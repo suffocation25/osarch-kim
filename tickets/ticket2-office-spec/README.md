@@ -58,7 +58,3 @@ The sales manager, about memory. 16 GB with a CRM in 30-40 browser tabs, Excel a
 ## 5. What I would do differently
 
 I would ask the director the questions from section 2 before choosing any parts, especially about the accounting software and the designer's programs. I would also measure real memory use on a computer of the sales team with the real CRM and video calls, instead of choosing by my own estimate, because that is the decision where I took the biggest risk. And since memory prices change quickly, I would check the memory price in a second store just before ordering.
-
-## AI use
-
-I used an AI assistant to help plan the builds. I checked the numbers and rewrote the answers in my own words.

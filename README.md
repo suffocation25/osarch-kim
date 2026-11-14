@@ -1,4 +1,4 @@
-Ticket 2 - Kitting out the new office
+﻿Ticket 2 - Kitting out the new office
 1. What was asked
 
 From Daniyar K. (Director): "We are opening the second office and need four computers - accountant, sales, web developer, designer. Budget 3,000,000 tenge for everything. Everyone says we should just buy the same four machines, is that right? Make sure they last a few years. Monitors included."
@@ -53,3 +53,9 @@ evidence/vendors.md - the vendor and the product number of every part.
 5. What I would do differently
 
 I would ask the director the questions from section 2 before choosing any parts, especially about the accounting software and the designer's programs. I would also measure real memory use on a computer of the sales team with the real CRM and video calls, instead of choosing by my own estimate, because that is the decision where I took the biggest risk. And since memory prices change quickly, I would check the memory price in a second store just before ordering.
+
+## AI use declaration
+
+| Ticket | AI assistant | What it was used for | What I did myself |
+|---|---|---|---|
+| Ticket 2 | Claude (Anthropic) | planning builds, finding prices, drafting the report | Checked prices and rewrote the answers myself |
