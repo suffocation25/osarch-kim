@@ -1,0 +1,10 @@
+stress-ng: info:  [2491] setting to a 2 mins 30 secs run per stressor
+stress-ng: info:  [2491] dispatching hogs: 1 vm
+stress-ng: info:  [2492] vm: using 2.93GB per stressor instance (total 2.93GB of 865.75MB available memory)
+stress-ng: info:  [2491] stopping 1 stressors
+stress-ng: warn:  [2491] metrics-check: all bogo-op counters are zero, data may be incorrect
+stress-ng: info:  [2491] skipped: 0
+stress-ng: info:  [2491] passed: 1: vm (1)
+stress-ng: info:  [2491] failed: 0
+stress-ng: info:  [2491] metrics untrustworthy: 0
+stress-ng: info:  [2491] successful run completed in 3 mins 1.98 sec

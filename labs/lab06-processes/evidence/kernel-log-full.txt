@@ -1,0 +1,1246 @@
+Nov 15 12:02:49 KimAmirOSA25 kernel: Linux version 7.0.0-38-generic (buildd@lcy02-amd64-070) (x86_64-linux-gnu-gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0, GNU ld (GNU Binutils for Ubuntu) 2.46) #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026 (Ubuntu 7.0.0-38.38-generic 7.0.14)
+Nov 15 12:02:49 KimAmirOSA25 kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-7.0.0-38-generic root=UUID=73cb7166-cd6c-45e2-a514-d6d9b18001fe ro crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M
+Nov 15 12:02:49 KimAmirOSA25 kernel: KERNEL supported cpus:
+Nov 15 12:02:49 KimAmirOSA25 kernel:   Intel GenuineIntel
+Nov 15 12:02:49 KimAmirOSA25 kernel:   AMD AuthenticAMD
+Nov 15 12:02:49 KimAmirOSA25 kernel:   Hygon HygonGenuine
+Nov 15 12:02:49 KimAmirOSA25 kernel:   Centaur CentaurHauls
+Nov 15 12:02:49 KimAmirOSA25 kernel:   zhaoxin   Shanghai  
+Nov 15 12:02:49 KimAmirOSA25 kernel: x86/CPU: Model not found in latest microcode list
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-provided physical RAM map:
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff]  System RAM
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff]  device reserved
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-e820: [gap 0x00000000000a0000-0x00000000000effff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff]  device reserved
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff]  System RAM
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff]  ACPI data
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-e820: [gap 0x0000000080000000-0x00000000febfffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff]  device reserved
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-e820: [gap 0x00000000fec01000-0x00000000fedfffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff]  device reserved
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-e820: [gap 0x00000000fee01000-0x00000000fffbffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff]  device reserved
+Nov 15 12:02:49 KimAmirOSA25 kernel: NX (Execute Disable) protection: active
+Nov 15 12:02:49 KimAmirOSA25 kernel: APIC: Static calls initialized
+Nov 15 12:02:49 KimAmirOSA25 kernel: SMBIOS 2.5 present.
+Nov 15 12:02:49 KimAmirOSA25 kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:02:49 KimAmirOSA25 kernel: DMI: Memory slots populated: 0/0
+Nov 15 12:02:49 KimAmirOSA25 kernel: Hypervisor detected: KVM
+Nov 15 12:02:49 KimAmirOSA25 kernel: last_pfn = 0x80000 max_arch_pfn = 0x400000000
+Nov 15 12:02:49 KimAmirOSA25 kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Nov 15 12:02:49 KimAmirOSA25 kernel: kvm-clock: using sched offset of 9753946435 cycles
+Nov 15 12:02:49 KimAmirOSA25 kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Nov 15 12:02:49 KimAmirOSA25 kernel: tsc: Detected 2687.998 MHz processor
+Nov 15 12:02:49 KimAmirOSA25 kernel: e820: update [mem 0x00000000-0x00000fff] System RAM ==> device reserved
+Nov 15 12:02:49 KimAmirOSA25 kernel: e820: remove [mem 0x000a0000-0x000fffff] System RAM
+Nov 15 12:02:49 KimAmirOSA25 kernel: last_pfn = 0x80000 max_arch_pfn = 0x400000000
+Nov 15 12:02:49 KimAmirOSA25 kernel: MTRR map: 3 entries (3 fixed + 0 variable; max 19), built from 8 variable MTRRs
+Nov 15 12:02:49 KimAmirOSA25 kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Nov 15 12:02:49 KimAmirOSA25 kernel: CPU MTRRs all blank - virtualized system.
+Nov 15 12:02:49 KimAmirOSA25 kernel: found SMP MP-table at [mem 0x0009fbf0-0x0009fbff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: RAMDISK: [mem 0x30c97000-0x34642fff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Early table checksum verification disabled
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: XSDT 0x000000007FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: FACP 0x000000007FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: DSDT 0x000000007FFF02F0 002353 (v02 VBOX   VBOXBIOS 00000002 VBOX 0002AC32)
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: FACS 0x000000007FFF0200 000040
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: FACS 0x000000007FFF0200 000040
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: APIC 0x000000007FFF0240 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: SSDT 0x000000007FFF02A0 000045 (v01 VBOX   VBOXCPUT 00000002 VBOX 0002AC32)
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Reserving FACP table memory at [mem 0x7fff00f0-0x7fff01e3]
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Reserving DSDT table memory at [mem 0x7fff02f0-0x7fff2642]
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Reserving APIC table memory at [mem 0x7fff0240-0x7fff029b]
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Reserving SSDT table memory at [mem 0x7fff02a0-0x7fff02e4]
+Nov 15 12:02:49 KimAmirOSA25 kernel: No NUMA configuration found
+Nov 15 12:02:49 KimAmirOSA25 kernel: Faking a node at [mem 0x0000000000000000-0x000000007fffffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: NODE_DATA(0) allocated [mem 0x7ffc5280-0x7ffeffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: crashkernel reserved: 0x000000006b000000 - 0x000000007f000000 (320 MB)
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: PM-Timer IO Port: 0x4008
+Nov 15 12:02:49 KimAmirOSA25 kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+Nov 15 12:02:49 KimAmirOSA25 kernel: CPU topo: Max. logical packages:   1
+Nov 15 12:02:49 KimAmirOSA25 kernel: CPU topo: Max. logical nodes:      1
+Nov 15 12:02:49 KimAmirOSA25 kernel: CPU topo: Num. nodes per package:  1
+Nov 15 12:02:49 KimAmirOSA25 kernel: CPU topo: Max. logical dies:       1
+Nov 15 12:02:49 KimAmirOSA25 kernel: CPU topo: Max. dies per package:   1
+Nov 15 12:02:49 KimAmirOSA25 kernel: CPU topo: Max. threads per core:   1
+Nov 15 12:02:49 KimAmirOSA25 kernel: CPU topo: Num. cores per package:     2
+Nov 15 12:02:49 KimAmirOSA25 kernel: CPU topo: Num. threads per package:   2
+Nov 15 12:02:49 KimAmirOSA25 kernel: CPU topo: Allowing 2 present CPUs plus 0 hotplug CPUs
+Nov 15 12:02:49 KimAmirOSA25 kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x000fffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: PM: hibernation: Registered nosave memory: [mem 0x7fff0000-0x7fffffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: [gap 0x80000000-0xfebfffff] available for PCI devices
+Nov 15 12:02:49 KimAmirOSA25 kernel: Booting paravirtualized kernel on KVM
+Nov 15 12:02:49 KimAmirOSA25 kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+Nov 15 12:02:49 KimAmirOSA25 kernel: Zone ranges:
+Nov 15 12:02:49 KimAmirOSA25 kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel:   DMA32    [mem 0x0000000001000000-0x000000007fffffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel:   Normal   empty
+Nov 15 12:02:49 KimAmirOSA25 kernel:   Device   empty
+Nov 15 12:02:49 KimAmirOSA25 kernel: Movable zone start for each node
+Nov 15 12:02:49 KimAmirOSA25 kernel: Early memory node ranges
+Nov 15 12:02:49 KimAmirOSA25 kernel:   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Nov 15 12:02:49 KimAmirOSA25 kernel:   node   0: [mem 0x0000000000100000-0x000000007ffeffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffeffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+Nov 15 12:02:49 KimAmirOSA25 kernel: On node 0, zone DMA: 97 pages in unavailable ranges
+Nov 15 12:02:49 KimAmirOSA25 kernel: On node 0, zone DMA32: 16 pages in unavailable ranges
+Nov 15 12:02:49 KimAmirOSA25 kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+Nov 15 12:02:49 KimAmirOSA25 kernel: percpu: Embedded 85 pages/cpu s225280 r8192 d114688 u1048576
+Nov 15 12:02:49 KimAmirOSA25 kernel: pcpu-alloc: s225280 r8192 d114688 u1048576 alloc=1*2097152
+Nov 15 12:02:49 KimAmirOSA25 kernel: pcpu-alloc: [0] 0 1 
+Nov 15 12:02:49 KimAmirOSA25 kernel: kvm-guest: PV spinlocks enabled
+Nov 15 12:02:49 KimAmirOSA25 kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-7.0.0-38-generic root=UUID=73cb7166-cd6c-45e2-a514-d6d9b18001fe ro crashkernel=2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M
+Nov 15 12:02:49 KimAmirOSA25 kernel: random: crng init done
+Nov 15 12:02:49 KimAmirOSA25 kernel: printk: log buffer data + meta data: 262144 + 1114112 = 1376256 bytes
+Nov 15 12:02:49 KimAmirOSA25 kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: Fallback order for Node 0: 0 
+Nov 15 12:02:49 KimAmirOSA25 kernel: Built 1 zonelists, mobility grouping on.  Total pages: 524174
+Nov 15 12:02:49 KimAmirOSA25 kernel: Policy zone: DMA32
+Nov 15 12:02:49 KimAmirOSA25 kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+Nov 15 12:02:49 KimAmirOSA25 kernel: KHO: Failed to reserve lowmem scratch buffer
+Nov 15 12:02:49 KimAmirOSA25 kernel: KHO: Failed to reserve scratch area, disabling kexec handover
+Nov 15 12:02:49 KimAmirOSA25 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Nov 15 12:02:49 KimAmirOSA25 kernel: ftrace: allocating 63997 entries in 252 pages
+Nov 15 12:02:49 KimAmirOSA25 kernel: ftrace: allocated 252 pages with 6 groups
+Nov 15 12:02:49 KimAmirOSA25 kernel: Dynamic Preempt: lazy
+Nov 15 12:02:49 KimAmirOSA25 kernel: rcu: Preemptible hierarchical RCU implementation.
+Nov 15 12:02:49 KimAmirOSA25 kernel: rcu:         RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+Nov 15 12:02:49 KimAmirOSA25 kernel:         Trampoline variant of Tasks RCU enabled.
+Nov 15 12:02:49 KimAmirOSA25 kernel:         Rude variant of Tasks RCU enabled.
+Nov 15 12:02:49 KimAmirOSA25 kernel:         Tracing variant of Tasks RCU enabled.
+Nov 15 12:02:49 KimAmirOSA25 kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+Nov 15 12:02:49 KimAmirOSA25 kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Nov 15 12:02:49 KimAmirOSA25 kernel: RCU Tasks: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+Nov 15 12:02:49 KimAmirOSA25 kernel: RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+Nov 15 12:02:49 KimAmirOSA25 kernel: NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+Nov 15 12:02:49 KimAmirOSA25 kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+Nov 15 12:02:49 KimAmirOSA25 kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+Nov 15 12:02:49 KimAmirOSA25 kernel: Console: colour VGA+ 80x25
+Nov 15 12:02:49 KimAmirOSA25 kernel: printk: legacy console [tty0] enabled
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Core revision 20251212
+Nov 15 12:02:49 KimAmirOSA25 kernel: APIC: Switch to symmetric I/O mode setup
+Nov 15 12:02:49 KimAmirOSA25 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Nov 15 12:02:49 KimAmirOSA25 kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x26bef4a354e, max_idle_ns: 440795213564 ns
+Nov 15 12:02:49 KimAmirOSA25 kernel: Calibrating delay loop (skipped) preset value.. 5375.99 BogoMIPS (lpj=2687998)
+Nov 15 12:02:49 KimAmirOSA25 kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Nov 15 12:02:49 KimAmirOSA25 kernel: Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Nov 15 12:02:49 KimAmirOSA25 kernel: mitigations: Enabled attack vectors: user_kernel, user_user, guest_host, guest_guest, SMT mitigations: auto
+Nov 15 12:02:49 KimAmirOSA25 kernel: Speculative Store Bypass: Vulnerable
+Nov 15 12:02:49 KimAmirOSA25 kernel: Spectre V2 : Mitigation: Enhanced / Automatic IBRS
+Nov 15 12:02:49 KimAmirOSA25 kernel: RETBleed: Mitigation: Enhanced IBRS
+Nov 15 12:02:49 KimAmirOSA25 kernel: ITS: Mitigation: Aligned branch/return thunks
+Nov 15 12:02:49 KimAmirOSA25 kernel: Register File Data Sampling: Mitigation: Clear Register File
+Nov 15 12:02:49 KimAmirOSA25 kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Nov 15 12:02:49 KimAmirOSA25 kernel: Spectre V2 : Spectre v2 / PBRSB-eIBRS: Retire a single CALL on VMEXIT
+Nov 15 12:02:49 KimAmirOSA25 kernel: active return thunk: its_return_thunk
+Nov 15 12:02:49 KimAmirOSA25 kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on syscall and VM exit
+Nov 15 12:02:49 KimAmirOSA25 kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Nov 15 12:02:49 KimAmirOSA25 kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Nov 15 12:02:49 KimAmirOSA25 kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Nov 15 12:02:49 KimAmirOSA25 kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Nov 15 12:02:49 KimAmirOSA25 kernel: x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Nov 15 12:02:49 KimAmirOSA25 kernel: Freeing SMP alternatives memory: 56K
+Nov 15 12:02:49 KimAmirOSA25 kernel: pid_max: default: 32768 minimum: 301
+Nov 15 12:02:49 KimAmirOSA25 kernel: landlock: Up and running.
+Nov 15 12:02:49 KimAmirOSA25 kernel: Yama: becoming mindful.
+Nov 15 12:02:49 KimAmirOSA25 kernel: AppArmor: AppArmor initialized
+Nov 15 12:02:49 KimAmirOSA25 kernel: AppArmor: AppArmor secmark mediation reserved: ready to be enabled
+Nov 15 12:02:49 KimAmirOSA25 kernel: Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: VFS: Finished mounting rootfs on nullfs
+Nov 15 12:02:49 KimAmirOSA25 kernel: APIC calibration not consistent with PM-Timer: 116ms instead of 100ms
+Nov 15 12:02:49 KimAmirOSA25 kernel: APIC delta adjusted to PM-Timer: 6282423 (7323720)
+Nov 15 12:02:49 KimAmirOSA25 kernel: smpboot: CPU0: 12th Gen Intel(R) Core(TM) i7-12700H (family: 0x6, model: 0x9a, stepping: 0x3)
+Nov 15 12:02:49 KimAmirOSA25 kernel: Performance Events: unsupported CPU family 6 model 154 no PMU driver, software events only.
+Nov 15 12:02:49 KimAmirOSA25 kernel: signal: max sigframe size: 1776
+Nov 15 12:02:49 KimAmirOSA25 kernel: rcu: Hierarchical SRCU implementation.
+Nov 15 12:02:49 KimAmirOSA25 kernel: rcu:         Max phase no-delay instances is 400.
+Nov 15 12:02:49 KimAmirOSA25 kernel: Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+Nov 15 12:02:49 KimAmirOSA25 kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+Nov 15 12:02:49 KimAmirOSA25 kernel: smp: Bringing up secondary CPUs ...
+Nov 15 12:02:49 KimAmirOSA25 kernel: smpboot: x86: Booting SMP configuration:
+Nov 15 12:02:49 KimAmirOSA25 kernel: .... node  #0, CPUs:      #1
+Nov 15 12:02:49 KimAmirOSA25 kernel: smp: Brought up 1 node, 2 CPUs
+Nov 15 12:02:49 KimAmirOSA25 kernel: smpboot: Total of 2 processors activated (10751.99 BogoMIPS)
+Nov 15 12:02:49 KimAmirOSA25 kernel: Memory: 1603492K/2096696K available (23836K kernel code, 4957K rwdata, 16776K rodata, 5304K init, 5840K bss, 483536K reserved, 0K cma-reserved)
+Nov 15 12:02:49 KimAmirOSA25 kernel: devtmpfs: initialized
+Nov 15 12:02:49 KimAmirOSA25 kernel: x86/mm: Memory block size: 128MB
+Nov 15 12:02:49 KimAmirOSA25 kernel: posixtimers hash table entries: 1024 (order: 2, 16384 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: futex hash table entries: 512 (32768 bytes on 1 NUMA nodes, total 32 KiB, linear).
+Nov 15 12:02:49 KimAmirOSA25 kernel: PM: RTC time: 12:02:47, date: 2026-11-15
+Nov 15 12:02:49 KimAmirOSA25 kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Nov 15 12:02:49 KimAmirOSA25 kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Nov 15 12:02:49 KimAmirOSA25 kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Nov 15 12:02:49 KimAmirOSA25 kernel: audit: initializing netlink subsys (disabled)
+Nov 15 12:02:49 KimAmirOSA25 kernel: audit: type=2000 audit(1794744178.057:1): state=initialized audit_enabled=0 res=1
+Nov 15 12:02:49 KimAmirOSA25 kernel: thermal_sys: Registered thermal governor 'fair_share'
+Nov 15 12:02:49 KimAmirOSA25 kernel: thermal_sys: Registered thermal governor 'bang_bang'
+Nov 15 12:02:49 KimAmirOSA25 kernel: thermal_sys: Registered thermal governor 'step_wise'
+Nov 15 12:02:49 KimAmirOSA25 kernel: thermal_sys: Registered thermal governor 'user_space'
+Nov 15 12:02:49 KimAmirOSA25 kernel: thermal_sys: Registered thermal governor 'power_allocator'
+Nov 15 12:02:49 KimAmirOSA25 kernel: cpuidle: using governor ladder
+Nov 15 12:02:49 KimAmirOSA25 kernel: cpuidle: using governor menu
+Nov 15 12:02:49 KimAmirOSA25 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Nov 15 12:02:49 KimAmirOSA25 kernel: PCI: Using configuration type 1 for base access
+Nov 15 12:02:49 KimAmirOSA25 kernel: mtrr: your CPUs had inconsistent variable MTRR settings
+Nov 15 12:02:49 KimAmirOSA25 kernel: mtrr: probably your BIOS does not setup all CPUs.
+Nov 15 12:02:49 KimAmirOSA25 kernel: mtrr: corrected configuration.
+Nov 15 12:02:49 KimAmirOSA25 kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+Nov 15 12:02:49 KimAmirOSA25 kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+Nov 15 12:02:49 KimAmirOSA25 kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Added _OSI(Module Device)
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Added _OSI(Processor Device)
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: 2 ACPI AML tables successfully acquired and loaded
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: \_SB_: platform _OSC: OS support mask [006e7eff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Interpreter enabled
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: PM: (supports S0 S5)
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Using IOAPIC for interrupt routing
+Nov 15 12:02:49 KimAmirOSA25 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Nov 15 12:02:49 KimAmirOSA25 kernel: PCI: Using E820 reservations for host bridge windows
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Nov 15 12:02:49 KimAmirOSA25 kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+Nov 15 12:02:49 KimAmirOSA25 kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Nov 15 12:02:49 KimAmirOSA25 kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+Nov 15 12:02:49 KimAmirOSA25 kernel: PCI host bridge to bus 0000:00
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfdffffff window]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000 conventional PCI endpoint
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100 conventional PCI endpoint
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a conventional PCI endpoint
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:01.1: BAR 4 [io  0xd000-0xd00f]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:01.1: BAR 0 [io  0x01f0-0x01f7]: legacy IDE quirk
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:01.1: BAR 1 [io  0x03f6]: legacy IDE quirk
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:01.1: BAR 2 [io  0x0170-0x0177]: legacy IDE quirk
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:01.1: BAR 3 [io  0x0376]: legacy IDE quirk
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000 conventional PCI endpoint
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:02.0: BAR 0 [io  0xd010-0xd01f]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:02.0: BAR 1 [mem 0xe0000000-0xe3ffffff pref]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:02.0: BAR 2 [mem 0xf0000000-0xf01fffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:03.0: [8086:100e] type 00 class 0x020000 conventional PCI endpoint
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:03.0: BAR 0 [mem 0xf0200000-0xf021ffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:03.0: BAR 2 [io  0xd020-0xd027]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000 conventional PCI endpoint
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:04.0: BAR 0 [io  0xd040-0xd05f]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:04.0: BAR 1 [mem 0xf0400000-0xf07fffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:04.0: BAR 2 [mem 0xf0800000-0xf0803fff pref]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:05.0: [8086:2415] type 00 class 0x040100 conventional PCI endpoint
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:05.0: BAR 0 [io  0xd100-0xd1ff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:05.0: BAR 1 [io  0xd200-0xd23f]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310 conventional PCI endpoint
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:06.0: BAR 0 [mem 0xf0804000-0xf0804fff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:07.0: [8086:7113] type 00 class 0x068000 conventional PCI endpoint
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320 conventional PCI endpoint
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:0b.0: BAR 0 [mem 0xf0805000-0xf0805fff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601 conventional PCI endpoint
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:0d.0: BAR 0 [io  0xd240-0xd247]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:0d.0: BAR 1 [io  0xd248-0xd24b]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:0d.0: BAR 2 [io  0xd250-0xd257]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:0d.0: BAR 3 [io  0xd258-0xd25b]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:0d.0: BAR 4 [io  0xd260-0xd26f]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:0d.0: BAR 5 [mem 0xf0806000-0xf0807fff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+Nov 15 12:02:49 KimAmirOSA25 kernel: iommu: Default domain type: Translated
+Nov 15 12:02:49 KimAmirOSA25 kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+Nov 15 12:02:49 KimAmirOSA25 kernel: SCSI subsystem initialized
+Nov 15 12:02:49 KimAmirOSA25 kernel: libata version 3.00 loaded.
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: bus type USB registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: usbcore: registered new interface driver usbfs
+Nov 15 12:02:49 KimAmirOSA25 kernel: usbcore: registered new interface driver hub
+Nov 15 12:02:49 KimAmirOSA25 kernel: usbcore: registered new device driver usb
+Nov 15 12:02:49 KimAmirOSA25 kernel: pps_core: LinuxPPS API ver. 1 registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov 15 12:02:49 KimAmirOSA25 kernel: PTP clock support registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: EDAC MC: Ver: 3.0.0
+Nov 15 12:02:49 KimAmirOSA25 kernel: NetLabel: Initializing
+Nov 15 12:02:49 KimAmirOSA25 kernel: NetLabel:  domain hash size = 128
+Nov 15 12:02:49 KimAmirOSA25 kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Nov 15 12:02:49 KimAmirOSA25 kernel: NetLabel:  unlabeled traffic allowed by default
+Nov 15 12:02:49 KimAmirOSA25 kernel: mctp: management component transport protocol core
+Nov 15 12:02:49 KimAmirOSA25 kernel: NET: Registered PF_MCTP protocol family
+Nov 15 12:02:49 KimAmirOSA25 kernel: PCI: Using ACPI for IRQ routing
+Nov 15 12:02:49 KimAmirOSA25 kernel: PCI: pci_cache_line_size set to 64 bytes
+Nov 15 12:02:49 KimAmirOSA25 kernel: e820: register RAM buffer resource [mem 0x0009fc00-0x0009ffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: e820: register RAM buffer resource [mem 0x7fff0000-0x7fffffff]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Nov 15 12:02:49 KimAmirOSA25 kernel: vgaarb: loaded
+Nov 15 12:02:49 KimAmirOSA25 kernel: clocksource: Switched to clocksource kvm-clock
+Nov 15 12:02:49 KimAmirOSA25 kernel: VFS: Disk quotas dquot_6.6.0
+Nov 15 12:02:49 KimAmirOSA25 kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Nov 15 12:02:49 KimAmirOSA25 kernel: AppArmor: AppArmor Filesystem Enabled
+Nov 15 12:02:49 KimAmirOSA25 kernel: pnp: PnP ACPI init
+Nov 15 12:02:49 KimAmirOSA25 kernel: pnp: PnP ACPI: found 2 devices
+Nov 15 12:02:49 KimAmirOSA25 kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Nov 15 12:02:49 KimAmirOSA25 kernel: NET: Registered PF_INET protocol family
+Nov 15 12:02:49 KimAmirOSA25 kernel: IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: TCP bind hash table entries: 16384 (order: 7, 524288 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: TCP: Hash tables configured (established 16384 bind 16384)
+Nov 15 12:02:49 KimAmirOSA25 kernel: MPTCP token hash table entries: 2048 (order: 4, 49152 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: UDP hash table entries: 1024 (order: 4, 65536 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: UDP-Lite hash table entries: 1024 (order: 4, 65536 bytes, linear)
+Nov 15 12:02:49 KimAmirOSA25 kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+Nov 15 12:02:49 KimAmirOSA25 kernel: NET: Registered PF_XDP protocol family
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci_bus 0000:00: resource 7 [mem 0x80000000-0xfdffffff window]
+Nov 15 12:02:49 KimAmirOSA25 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Nov 15 12:02:49 KimAmirOSA25 kernel: PCI: CLS 0 bytes, default 64
+Nov 15 12:02:49 KimAmirOSA25 kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x26bef4a354e, max_idle_ns: 440795213564 ns
+Nov 15 12:02:49 KimAmirOSA25 kernel: clocksource: Switched to clocksource tsc
+Nov 15 12:02:49 KimAmirOSA25 kernel: Trying to unpack rootfs image as initramfs...
+Nov 15 12:02:49 KimAmirOSA25 kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+Nov 15 12:02:49 KimAmirOSA25 kernel: Initialise system trusted keyrings
+Nov 15 12:02:49 KimAmirOSA25 kernel: Key type blacklist registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: workingset: timestamp_bits=36 max_order=19 bucket_order=0
+Nov 15 12:02:49 KimAmirOSA25 kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Nov 15 12:02:49 KimAmirOSA25 kernel: fuse: init (API version 7.45)
+Nov 15 12:02:49 KimAmirOSA25 kernel: integrity: Platform Keyring initialized
+Nov 15 12:02:49 KimAmirOSA25 kernel: integrity: Machine keyring initialized
+Nov 15 12:02:49 KimAmirOSA25 kernel: Key type asymmetric registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: Asymmetric key parser 'x509' registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+Nov 15 12:02:49 KimAmirOSA25 kernel: io scheduler mq-deadline registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: Freeing initrd memory: 59056K
+Nov 15 12:02:49 KimAmirOSA25 kernel: ledtrig-cpu: registered to indicate activity on CPUs
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: AC: AC Adapter [AC] (on-line)
+Nov 15 12:02:49 KimAmirOSA25 kernel: input: Power Button as /devices/platform/LNXPWRBN:00/input/input0
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: button: Power Button [PWRF]
+Nov 15 12:02:49 KimAmirOSA25 kernel: input: Sleep Button as /devices/platform/LNXSLPBN:00/input/input1
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: button: Sleep Button [SLPF]
+Nov 15 12:02:49 KimAmirOSA25 kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: battery: Slot [BAT0] (battery present)
+Nov 15 12:02:49 KimAmirOSA25 kernel: Linux agpgart interface v0.103
+Nov 15 12:02:49 KimAmirOSA25 kernel: loop: module loaded
+Nov 15 12:02:49 KimAmirOSA25 kernel: scsi host0: ata_piix
+Nov 15 12:02:49 KimAmirOSA25 kernel: scsi host1: ata_piix
+Nov 15 12:02:49 KimAmirOSA25 kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14 lpm-pol 0
+Nov 15 12:02:49 KimAmirOSA25 kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15 lpm-pol 0
+Nov 15 12:02:49 KimAmirOSA25 kernel: ACPI: bus type drm_connector registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: tun: Universal TUN/TAP device driver, 1.6
+Nov 15 12:02:49 KimAmirOSA25 kernel: PPP generic driver version 2.4.2
+Nov 15 12:02:49 KimAmirOSA25 kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+Nov 15 12:02:49 KimAmirOSA25 kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Nov 15 12:02:49 KimAmirOSA25 kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 7.00
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb usb1: Product: OHCI PCI host controller
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb usb1: Manufacturer: Linux 7.0.0-38-generic ohci_hcd
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb usb1: SerialNumber: 0000:00:06.0
+Nov 15 12:02:49 KimAmirOSA25 kernel: hub 1-0:1.0: USB hub found
+Nov 15 12:02:49 KimAmirOSA25 kernel: hub 1-0:1.0: 12 ports detected
+Nov 15 12:02:49 KimAmirOSA25 kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Nov 15 12:02:49 KimAmirOSA25 kernel: ehci-pci 0000:00:0b.0: EHCI Host Controller
+Nov 15 12:02:49 KimAmirOSA25 kernel: ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 2
+Nov 15 12:02:49 KimAmirOSA25 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Nov 15 12:02:49 KimAmirOSA25 kernel: ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0805000
+Nov 15 12:02:49 KimAmirOSA25 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Nov 15 12:02:49 KimAmirOSA25 kernel: mousedev: PS/2 mouse device common for all mice
+Nov 15 12:02:49 KimAmirOSA25 kernel: ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+Nov 15 12:02:49 KimAmirOSA25 kernel: rtc_cmos rtc_cmos: registered as rtc0
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 7.00
+Nov 15 12:02:49 KimAmirOSA25 kernel: rtc_cmos rtc_cmos: setting system clock to 2026-11-15T12:02:48 UTC (1794744168)
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 15 12:02:49 KimAmirOSA25 kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb usb2: Product: EHCI Host Controller
+Nov 15 12:02:49 KimAmirOSA25 kernel: i2c_dev: i2c /dev entries driver
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb usb2: Manufacturer: Linux 7.0.0-38-generic ehci_hcd
+Nov 15 12:02:49 KimAmirOSA25 kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb usb2: SerialNumber: 0000:00:0b.0
+Nov 15 12:02:49 KimAmirOSA25 kernel: device-mapper: uevent: version 1.0.3
+Nov 15 12:02:49 KimAmirOSA25 kernel: hub 2-0:1.0: USB hub found
+Nov 15 12:02:49 KimAmirOSA25 kernel: hub 2-0:1.0: 12 ports detected
+Nov 15 12:02:49 KimAmirOSA25 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Nov 15 12:02:49 KimAmirOSA25 kernel: device-mapper: ioctl: 4.50.0-ioctl (2025-04-28) initialised: dm-devel@lists.linux.dev
+Nov 15 12:02:49 KimAmirOSA25 kernel: intel_pstate: CPU model not supported
+Nov 15 12:02:49 KimAmirOSA25 kernel: drop_monitor: Initializing network drop monitor service
+Nov 15 12:02:49 KimAmirOSA25 kernel: NET: Registered PF_INET6 protocol family
+Nov 15 12:02:49 KimAmirOSA25 kernel: Segment Routing with IPv6
+Nov 15 12:02:49 KimAmirOSA25 kernel: In-situ OAM (IOAM) with IPv6
+Nov 15 12:02:49 KimAmirOSA25 kernel: NET: Registered PF_PACKET protocol family
+Nov 15 12:02:49 KimAmirOSA25 kernel: Key type dns_resolver registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: IPI shorthand broadcast: enabled
+Nov 15 12:02:49 KimAmirOSA25 kernel: sched_clock: Marking stable (964849633, 234725038)->(1404968449, -205393778)
+Nov 15 12:02:49 KimAmirOSA25 kernel: registered taskstats version 1
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loading compiled-in X.509 certificates
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 6b2b0d62fc3a1216c49fda2b061b13d4dbf474bd'
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing 2025 Kmod: d541cef61dc7e793b7eb7e899970a2eef0b5dc8c'
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing 2025 Kmod: 4627603d2357a2a3f81006370894c221175893e9'
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+Nov 15 12:02:49 KimAmirOSA25 kernel: ata1.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Nov 15 12:02:49 KimAmirOSA25 kernel: blacklist: Loading compiled-in revocation X.509 certificates
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+Nov 15 12:02:49 KimAmirOSA25 kernel: scsi 0:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Nov 15 12:02:49 KimAmirOSA25 kernel: Demotion targets for Node 0: null
+Nov 15 12:02:49 KimAmirOSA25 kernel: Key type .fscrypt registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: Key type fscrypt-provisioning registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: Key type big_key registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: sr 0:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Nov 15 12:02:49 KimAmirOSA25 kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+Nov 15 12:02:49 KimAmirOSA25 kernel: sr 0:0:0:0: Attached scsi CD-ROM sr0
+Nov 15 12:02:49 KimAmirOSA25 kernel: sr 0:0:0:0: Attached scsi generic sg0 type 5
+Nov 15 12:02:49 KimAmirOSA25 kernel: Key type encrypted registered
+Nov 15 12:02:49 KimAmirOSA25 kernel: AppArmor: AppArmor sha256 policy hashing enabled
+Nov 15 12:02:49 KimAmirOSA25 kernel: ima: No TPM chip found, activating TPM-bypass!
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loading compiled-in module X.509 certificates
+Nov 15 12:02:49 KimAmirOSA25 kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 6b2b0d62fc3a1216c49fda2b061b13d4dbf474bd'
+Nov 15 12:02:49 KimAmirOSA25 kernel: ima: Allocated hash algorithm: sha256
+Nov 15 12:02:49 KimAmirOSA25 kernel: ima: No architecture policies found
+Nov 15 12:02:49 KimAmirOSA25 kernel: evm: Initialising EVM extended attributes:
+Nov 15 12:02:49 KimAmirOSA25 kernel: evm: security.selinux
+Nov 15 12:02:49 KimAmirOSA25 kernel: evm: security.SMACK64
+Nov 15 12:02:49 KimAmirOSA25 kernel: evm: security.SMACK64EXEC
+Nov 15 12:02:49 KimAmirOSA25 kernel: evm: security.SMACK64TRANSMUTE
+Nov 15 12:02:49 KimAmirOSA25 kernel: evm: security.SMACK64MMAP
+Nov 15 12:02:49 KimAmirOSA25 kernel: evm: security.apparmor
+Nov 15 12:02:49 KimAmirOSA25 kernel: evm: security.ima
+Nov 15 12:02:49 KimAmirOSA25 kernel: evm: security.capability
+Nov 15 12:02:49 KimAmirOSA25 kernel: evm: HMAC attrs: 0x1
+Nov 15 12:02:49 KimAmirOSA25 kernel: PM:   Magic number: 2:392:26
+Nov 15 12:02:49 KimAmirOSA25 kernel: RAS: Correctable Errors collector initialized.
+Nov 15 12:02:49 KimAmirOSA25 kernel: clk: Disabling unused clocks
+Nov 15 12:02:49 KimAmirOSA25 kernel: PM: genpd: Disabling unused power domains
+Nov 15 12:02:49 KimAmirOSA25 kernel: Freeing unused decrypted memory: 2028K
+Nov 15 12:02:49 KimAmirOSA25 kernel: Freeing unused kernel image (initmem) memory: 5304K
+Nov 15 12:02:49 KimAmirOSA25 kernel: Write protecting the kernel read-only data: 43008k
+Nov 15 12:02:49 KimAmirOSA25 kernel: Freeing unused kernel image (text/rodata gap) memory: 736K
+Nov 15 12:02:49 KimAmirOSA25 kernel: Freeing unused kernel image (rodata/data gap) memory: 1656K
+Nov 15 12:02:49 KimAmirOSA25 kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Nov 15 12:02:49 KimAmirOSA25 kernel: Run /init as init process
+Nov 15 12:02:49 KimAmirOSA25 kernel:   with arguments:
+Nov 15 12:02:49 KimAmirOSA25 kernel:     /init
+Nov 15 12:02:49 KimAmirOSA25 kernel:   with environment:
+Nov 15 12:02:49 KimAmirOSA25 kernel:     HOME=/
+Nov 15 12:02:49 KimAmirOSA25 kernel:     TERM=linux
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Inserted module 'autofs4'
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Successfully made /usr/ read-only.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: systemd 259.5-0ubuntu3.4 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +IPE +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF -XKBCOMMON -UTMP +SYSVINIT +LIBARCHIVE)
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Detected virtualization oracle.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Detected architecture x86-64.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Running in initrd.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Hostname set to <KimAmirOSA25>.
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb 1-1: new full-speed USB device number 2 using ohci-pci
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: bpf-restrict-fs: BPF LSM hook not enabled in the kernel, BPF LSM not supported.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Queued start job for default target initrd.target.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Started systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Expecting device dev-disk-by\x2duuid-73cb7166\x2dcd6c\x2d45e2\x2da514\x2dd6d9b18001fe.device - /dev/disk/by-uuid/73cb7166-cd6c-45e2-a514-d6d9b18001fe...
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Reached target initrd-usr-fs.target - Initrd /usr File System.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Reached target paths.target - Path Units.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Reached target slices.target - Slice Units.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Reached target swap.target - Swaps.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Reached target timers.target - Timer Units.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Listening on systemd-journald.socket - Journal Sockets.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Listening on systemd-networkd.socket - Network Management Netlink Socket.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Listening on systemd-udevd-control.socket - udev Control Socket.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Listening on systemd-udevd-kernel.socket - udev Kernel Socket.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Reached target sockets.target - Socket Units.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Starting dracut-cmdline-ask.service - dracut ask for additional cmdline parameters...
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Starting kmod-static-nodes.service - Create List of Static Device Nodes...
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: systemd-battery-check.service - Early Battery Level Check skipped, unmet condition check ConditionVirtualization=no
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Starting systemd-journald.service - Journal Service...
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb 1-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb 1-1: Product: USB Tablet
+Nov 15 12:02:49 KimAmirOSA25 kernel: usb 1-1: Manufacturer: VirtualBox
+Nov 15 12:02:49 KimAmirOSA25 systemd-journald[133]: Collecting audit messages is disabled.
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Starting systemd-network-generator.service - Generate Network Units from Kernel Command Line...
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: systemd-pcrphase-initrd.service - TPM PCR Barrier (initrd) skipped, unmet condition check ConditionSecurity=measured-uki
+Nov 15 12:02:49 KimAmirOSA25 systemd[1]: Started systemd-journald.service - Journal Service.
+Nov 15 12:02:49 KimAmirOSA25 kernel: hid: raw HID events driver (C) Jiri Kosina
+Nov 15 12:02:49 KimAmirOSA25 kernel: usbcore: registered new interface driver usbhid
+Nov 15 12:02:49 KimAmirOSA25 kernel: usbhid: USB HID core driver
+Nov 15 12:02:49 KimAmirOSA25 kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input4
+Nov 15 12:02:49 KimAmirOSA25 kernel: hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Nov 15 12:02:50 KimAmirOSA25 kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Nov 15 12:02:50 KimAmirOSA25 kernel: e1000: Intel(R) PRO/1000 Network Driver
+Nov 15 12:02:50 KimAmirOSA25 kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Nov 15 12:02:50 KimAmirOSA25 kernel: ahci 0000:00:0d.0: AHCI vers 0001.0100, 32 command slots, 3 Gbps, SATA mode
+Nov 15 12:02:50 KimAmirOSA25 kernel: ahci 0000:00:0d.0: 30/30 ports implemented (port mask 0x3fffffff)
+Nov 15 12:02:50 KimAmirOSA25 kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Nov 15 12:02:50 KimAmirOSA25 kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Nov 15 12:02:50 KimAmirOSA25 kernel: vboxguest: host-version: 7.2.20r175154 0x8000000f
+Nov 15 12:02:50 KimAmirOSA25 kernel: input: Video Bus as /devices/pci0000:00/acpi.video_bus.0/input/input6
+Nov 15 12:02:50 KimAmirOSA25 kernel: vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+Nov 15 12:02:50 KimAmirOSA25 kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7
+Nov 15 12:02:50 KimAmirOSA25 kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host2: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host3: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host4: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host5: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host6: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host7: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host8: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host9: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host10: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host11: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host12: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host13: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host14: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host15: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host16: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host17: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host18: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host19: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host20: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host21: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host22: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host23: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host24: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host25: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host26: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host27: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host28: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host29: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host30: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi host31: ahci
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21 lpm-pol 1
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata4: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806180 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata5: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806200 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata6: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806280 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata7: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806300 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata8: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806380 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata9: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806400 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata10: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806480 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata11: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806500 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata12: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806580 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata13: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806600 irq 21 lpm-pol 1
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata14: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806680 irq 21 lpm-pol 1
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata15: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806700 irq 21 lpm-pol 1
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata16: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806780 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata17: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806800 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata18: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806880 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata19: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806900 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata20: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806980 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata21: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806a00 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata22: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806a80 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata23: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806b00 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata24: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806b80 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata25: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806c00 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata26: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806c80 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata27: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806d00 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata28: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806d80 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata29: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806e00 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata30: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806e80 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata31: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806f00 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata32: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806f80 irq 21 lpm-pol 1 ext
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata3.00: 52428800 sectors, multi 128: LBA48 NCQ (depth 32)
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata3.00: configured for UDMA/133
+Nov 15 12:02:50 KimAmirOSA25 kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Nov 15 12:02:50 KimAmirOSA25 kernel: sd 2:0:0:0: [sda] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+Nov 15 12:02:50 KimAmirOSA25 kernel: sd 2:0:0:0: [sda] Write Protect is off
+Nov 15 12:02:50 KimAmirOSA25 kernel: sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Nov 15 12:02:50 KimAmirOSA25 kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Nov 15 12:02:50 KimAmirOSA25 kernel: sd 2:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+Nov 15 12:02:50 KimAmirOSA25 kernel: sd 2:0:0:0: Attached scsi generic sg1 type 0
+Nov 15 12:02:50 KimAmirOSA25 kernel:  sda: sda1 sda2
+Nov 15 12:02:50 KimAmirOSA25 kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Nov 15 12:02:50 KimAmirOSA25 kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:c5:86:26
+Nov 15 12:02:50 KimAmirOSA25 kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Nov 15 12:02:50 KimAmirOSA25 kernel: ata4: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:51 KimAmirOSA25 kernel: ata5: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:51 KimAmirOSA25 kernel: ata6: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:51 KimAmirOSA25 kernel: ata7: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:52 KimAmirOSA25 kernel: ata8: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:52 KimAmirOSA25 kernel: ata9: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:52 KimAmirOSA25 kernel: ata10: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:53 KimAmirOSA25 kernel: ata11: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:53 KimAmirOSA25 kernel: ata12: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:53 KimAmirOSA25 kernel: ata13: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Nov 15 12:02:53 KimAmirOSA25 kernel: ata13.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Nov 15 12:02:53 KimAmirOSA25 kernel: ata13.00: 2097152 sectors, multi 128: LBA48 NCQ (depth 32)
+Nov 15 12:02:53 KimAmirOSA25 kernel: ata13.00: configured for UDMA/133
+Nov 15 12:02:53 KimAmirOSA25 kernel: scsi 12:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Nov 15 12:02:53 KimAmirOSA25 kernel: sd 12:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+Nov 15 12:02:53 KimAmirOSA25 kernel: sd 12:0:0:0: [sdb] Write Protect is off
+Nov 15 12:02:53 KimAmirOSA25 kernel: sd 12:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+Nov 15 12:02:53 KimAmirOSA25 kernel: sd 12:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Nov 15 12:02:53 KimAmirOSA25 kernel: sd 12:0:0:0: [sdb] Preferred minimum I/O size 512 bytes
+Nov 15 12:02:53 KimAmirOSA25 kernel: sd 12:0:0:0: Attached scsi generic sg2 type 0
+Nov 15 12:02:53 KimAmirOSA25 kernel:  sdb: sdb1
+Nov 15 12:02:53 KimAmirOSA25 kernel: sd 12:0:0:0: [sdb] Attached SCSI disk
+Nov 15 12:02:54 KimAmirOSA25 kernel: ata14: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Nov 15 12:02:54 KimAmirOSA25 kernel: ata14.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Nov 15 12:02:54 KimAmirOSA25 kernel: ata14.00: 2097152 sectors, multi 128: LBA48 NCQ (depth 32)
+Nov 15 12:02:54 KimAmirOSA25 kernel: ata14.00: configured for UDMA/133
+Nov 15 12:02:54 KimAmirOSA25 kernel: scsi 13:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 13:0:0:0: [sdc] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 13:0:0:0: [sdc] Write Protect is off
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 13:0:0:0: [sdc] Mode Sense: 00 3a 00 00
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 13:0:0:0: Attached scsi generic sg3 type 0
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 13:0:0:0: [sdc] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 13:0:0:0: [sdc] Preferred minimum I/O size 512 bytes
+Nov 15 12:02:54 KimAmirOSA25 kernel:  sdc: sdc1
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 13:0:0:0: [sdc] Attached SCSI disk
+Nov 15 12:02:54 KimAmirOSA25 kernel: ata15: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Nov 15 12:02:54 KimAmirOSA25 kernel: ata15.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Nov 15 12:02:54 KimAmirOSA25 kernel: ata15.00: 2097152 sectors, multi 128: LBA48 NCQ (depth 32)
+Nov 15 12:02:54 KimAmirOSA25 kernel: ata15.00: configured for UDMA/133
+Nov 15 12:02:54 KimAmirOSA25 kernel: scsi 14:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 14:0:0:0: [sdd] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 14:0:0:0: [sdd] Write Protect is off
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 14:0:0:0: [sdd] Mode Sense: 00 3a 00 00
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 14:0:0:0: [sdd] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 14:0:0:0: [sdd] Preferred minimum I/O size 512 bytes
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 14:0:0:0: Attached scsi generic sg4 type 0
+Nov 15 12:02:54 KimAmirOSA25 kernel:  sdd: sdd1
+Nov 15 12:02:54 KimAmirOSA25 kernel: sd 14:0:0:0: [sdd] Attached SCSI disk
+Nov 15 12:02:54 KimAmirOSA25 kernel: ata16: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:54 KimAmirOSA25 kernel: ata17: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:55 KimAmirOSA25 kernel: ata18: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:55 KimAmirOSA25 kernel: ata19: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:55 KimAmirOSA25 kernel: ata20: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:56 KimAmirOSA25 kernel: ata21: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:56 KimAmirOSA25 kernel: ata22: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:56 KimAmirOSA25 kernel: ata23: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:57 KimAmirOSA25 kernel: ata24: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:57 KimAmirOSA25 kernel: ata25: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:57 KimAmirOSA25 kernel: ata26: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:58 KimAmirOSA25 kernel: ata27: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:58 KimAmirOSA25 kernel: ata28: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:58 KimAmirOSA25 kernel: ata29: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:59 KimAmirOSA25 kernel: ata30: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:59 KimAmirOSA25 kernel: ata31: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:59 KimAmirOSA25 kernel: ata32: SATA link down (SStatus 0 SControl 300)
+Nov 15 12:02:59 KimAmirOSA25 kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+Nov 15 12:02:59 KimAmirOSA25 kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov 15 12:03:00 KimAmirOSA25 kernel: EXT4-fs (sda2): orphan cleanup on readonly fs
+Nov 15 12:03:00 KimAmirOSA25 kernel: EXT4-fs (sda2): mounted filesystem 73cb7166-cd6c-45e2-a514-d6d9b18001fe ro with ordered data mode. Quota mode: none.
+Nov 15 12:03:01 KimAmirOSA25 systemd-journald[133]: Received SIGTERM from PID 1 (systemd).
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: systemd 259.5-0ubuntu3.4 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +IPE +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF -XKBCOMMON -UTMP +SYSVINIT +LIBARCHIVE)
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Detected virtualization oracle.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Detected architecture x86-64.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: bpf-restrict-fs: BPF LSM hook not enabled in the kernel, BPF LSM not supported.
+Nov 15 12:03:01 KimAmirOSA25 kernel: Guest personality initialized and is inactive
+Nov 15 12:03:01 KimAmirOSA25 kernel: VMCI host device registered (name=vmci, major=10, minor=264)
+Nov 15 12:03:01 KimAmirOSA25 kernel: Initialized host personality
+Nov 15 12:03:01 KimAmirOSA25 kernel: NET: Registered PF_VSOCK protocol family
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: /usr/lib/systemd/system/xfs_scrub_all.service:26: Support for option CPUAccounting= has been removed and it is ignored
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: /usr/lib/systemd/system/system-xfs_scrub.slice:15: Support for option CPUAccounting= has been removed and it is ignored
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: initrd-switch-root.service: Deactivated successfully.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Stopped initrd-switch-root.service - Switch Root.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: systemd-journald.service: Scheduled restart job, restart counter is at 1.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Created slice system-xfs_scrub.slice - xfs_scrub background service slice.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Created slice user.slice - User and Session Slice.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Started systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Set up automount proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Reached target imports.target - Image Downloads.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Stopped target initrd-switch-root.target - Switch Root.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Stopped target initrd-fs.target - Initrd File Systems.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Stopped target initrd-root-fs.target - Initrd Root File System.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Reached target integritysetup.target - Local Integrity Protected Volumes.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Reached target slices.target - Slice Units.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Reached target snapd.mounts-pre.target - Mounting snaps.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Reached target swap.target - Swaps.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Reached target time-set.target - System Time Set.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Reached target veritysetup.target - Local Verity Protected Volumes.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on dm-event.socket - Device-mapper event daemon FIFOs.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on lvm2-lvmpolld.socket - LVM2 poll daemon socket.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on syslog.socket - Syslog Socket.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on systemd-ask-password.socket - Query the User Interactively for a Password.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on systemd-creds.socket - Credential Encryption/Decryption.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on systemd-factory-reset.socket - Factory Reset Management.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on systemd-mute-console.socket - Console Output Muting Service Socket.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on systemd-networkd-varlink.socket - Network Management Varlink Socket.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on systemd-networkd.socket - Network Management Netlink Socket.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: systemd-pcrextend.socket - TPM PCR Measurements skipped, unmet condition check ConditionSecurity=measured-uki
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: systemd-pcrlock.socket - Make TPM PCR Policy skipped, unmet condition check ConditionSecurity=measured-uki
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on systemd-resolved-monitor.socket - Resolve Monitor Varlink Socket.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on systemd-resolved-varlink.socket - Resolve Service Varlink Socket.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on systemd-udevd-control.socket - udev Control Socket.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Listening on systemd-udevd-varlink.socket - udev Varlink Socket.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Mounting sys-kernel-tracing.mount - Kernel Trace File System...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Mounting tmp.mount - Temporary Directory /tmp...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Starting systemd-journald.service - Journal Service...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Starting kmod-static-nodes.service - Create List of Static Device Nodes...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Starting lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: modprobe@configfs.service - Load Kernel Module configfs skipped, unmet condition check ConditionKernelModuleLoaded=!configfs
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Starting modprobe@dm_multipath.service - Load Kernel Module dm_multipath...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: modprobe@drm.service - Load Kernel Module drm skipped, unmet condition check ConditionKernelModuleLoaded=!drm
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+Nov 15 12:03:01 KimAmirOSA25 systemd-journald[543]: Collecting audit messages is disabled.
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: modprobe@fuse.service - Load Kernel Module fuse skipped, unmet condition check ConditionKernelModuleLoaded=!fuse
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Mounting sys-fs-fuse-connections.mount - FUSE Control File System...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup skipped, unmet condition check ConditionFileIsExecutable=/usr/bin/ovs-vsctl
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: systemd-hibernate-clear.service - Clear Stale Hibernate Storage Info skipped, unmet condition check ConditionPathExists=/sys/firmware/efi/efivars/HibernateLocation-8cf2644b-4b0b-428f-9387-6d876050dc67
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: systemd-pcrmachine.service - TPM PCR Machine ID Measurement skipped, unmet condition check ConditionSecurity=measured-uki
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: systemd-pcrproduct.service - TPM NvPCR Product ID Measurement skipped, unmet condition check ConditionSecurity=measured-uki
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: systemd-tpm2-setup-early.service - Early TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-uki
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Starting systemd-udev-load-credentials.service - Load udev Rules from Credentials...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Starting systemd-udev-trigger.service - Coldplug All udev Devices...
+Nov 15 12:03:01 KimAmirOSA25 systemd[1]: Started systemd-journald.service - Journal Service.
+Nov 15 12:03:01 KimAmirOSA25 kernel: EXT4-fs (sda2): re-mounted 73cb7166-cd6c-45e2-a514-d6d9b18001fe r/w.
+Nov 15 12:03:02 KimAmirOSA25 systemd-journald[543]: Received client request to flush runtime journal.
+Nov 15 12:03:02 KimAmirOSA25 kernel: loop0: detected capacity change from 0 to 3088
+Nov 15 12:03:02 KimAmirOSA25 kernel: loop1: detected capacity change from 0 to 102608
+Nov 15 12:03:02 KimAmirOSA25 kernel: loop2: detected capacity change from 0 to 136816
+Nov 15 12:03:02 KimAmirOSA25 kernel: loop3: detected capacity change from 0 to 3088
+Nov 15 12:03:02 KimAmirOSA25 kernel: loop4: detected capacity change from 0 to 91568
+Nov 15 12:03:03 KimAmirOSA25 kernel: audit: type=1400 audit(1794744183.016:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=730 comm="apparmor_parser"
+Nov 15 12:03:03 KimAmirOSA25 kernel: audit: type=1400 audit(1794744183.017:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=731 comm="apparmor_parser"
+Nov 15 12:03:03 KimAmirOSA25 kernel: audit: type=1400 audit(1794744183.019:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=733 comm="apparmor_parser"
+Nov 15 12:03:03 KimAmirOSA25 kernel: audit: type=1400 audit(1794744183.027:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=732 comm="apparmor_parser"
+Nov 15 12:03:03 KimAmirOSA25 kernel: audit: type=1400 audit(1794744183.048:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="alsamixer" pid=738 comm="apparmor_parser"
+Nov 15 12:03:03 KimAmirOSA25 kernel: audit: type=1400 audit(1794744183.054:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="babeld" pid=740 comm="apparmor_parser"
+Nov 15 12:03:03 KimAmirOSA25 kernel: audit: type=1400 audit(1794744183.057:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="balena-etcher" pid=741 comm="apparmor_parser"
+Nov 15 12:03:03 KimAmirOSA25 kernel: audit: type=1400 audit(1794744183.065:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Xorg" pid=737 comm="apparmor_parser"
+Nov 15 12:03:03 KimAmirOSA25 kernel: audit: type=1400 audit(1794744183.065:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Xorg_wrap" pid=737 comm="apparmor_parser"
+Nov 15 12:03:03 KimAmirOSA25 kernel: audit: type=1400 audit(1794744183.066:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="bfdd" pid=742 comm="apparmor_parser"
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+Nov 15 12:03:03 KimAmirOSA25 kernel: Console: switching to colour dummy device 80x25
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000f0000000 size is 2048 KiB
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000e0000000 size is 65536 KiB
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, command buffers 2, gbobject, cap2 register, 
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] Capabilities2: cursor mob, 
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] Legacy memory limits: VRAM = 65536 KiB, FIFO = 2048 KiB, surface = 458752 KiB
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] MOB limits: max mob size = 1048576 KiB, max mob pages = 262144
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] Max GMR ids is 8192
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] Max number of GMR pages is 1048576
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 65536 KiB
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] Screen Target display unit initialized
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] Using command buffers with DMA pool.
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+Nov 15 12:03:03 KimAmirOSA25 kernel: [drm] Initialized vmwgfx 2.21.0 for 0000:00:02.0 on minor 0
+Nov 15 12:03:03 KimAmirOSA25 kernel: Console: switching to colour frame buffer device 160x50
+Nov 15 12:03:03 KimAmirOSA25 kernel: vmwgfx 0000:00:02.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+Nov 15 12:03:03 KimAmirOSA25 kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Nov 15 12:03:03 KimAmirOSA25 kernel: md: kicking non-fresh sdc1 from array!
+Nov 15 12:03:03 KimAmirOSA25 kernel: md/raid1:md0: active with 2 out of 2 mirrors
+Nov 15 12:03:03 KimAmirOSA25 kernel: md0: detected capacity change from 0 to 2091008
+Nov 15 12:03:03 KimAmirOSA25 kernel: snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+Nov 15 12:03:04 KimAmirOSA25 kernel: cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Nov 15 12:03:04 KimAmirOSA25 kernel: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Nov 15 12:03:04 KimAmirOSA25 kernel: Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+Nov 15 12:03:04 KimAmirOSA25 kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+Nov 15 12:03:04 KimAmirOSA25 kernel: intel_rapl_msr: PL4 support detected.
+Nov 15 12:03:05 KimAmirOSA25 kernel: 12:03:05.327280 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:03:0
+Nov 15 12:03:05 KimAmirOSA25 kernel: 12:03:05.337651 main     OS Product: Linux
+Nov 15 12:03:05 KimAmirOSA25 kernel: 12:03:05.339713 main     OS Release: 7.0.0-38-generic
+Nov 15 12:03:05 KimAmirOSA25 kernel: 12:03:05.340230 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:03:05 KimAmirOSA25 kernel: 12:03:05.346169 main     Executable: /usr/sbin/VBoxService
+                                     12:03:05.346171 main     Process ID: 1223
+                                     12:03:05.346171 main     P
+Nov 15 12:03:05 KimAmirOSA25 kernel: 12:03:05.347575 main     VMSVGA DRM resizing client not started, rc=VERR_FILE_NOT_FOUND
+Nov 15 12:03:05 KimAmirOSA25 kernel: 12:03:05.348009 main     7.2.6_Ubuntu r172322 started. Verbose level = 0
+Nov 15 12:03:05 KimAmirOSA25 kernel: 12:03:05.358350 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:03:05 KimAmirOSA25 kernel: NET: Registered PF_QIPCRTR protocol family
+Nov 15 12:03:06 KimAmirOSA25 kernel: loop5: detected capacity change from 0 to 8
+Nov 15 12:03:59 KimAmirOSA25 kernel: 12:03:59.593920 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:03:5
+Nov 15 12:03:59 KimAmirOSA25 kernel: 12:03:59.595095 main     OS Product: Linux
+Nov 15 12:03:59 KimAmirOSA25 kernel: 12:03:59.595439 main     OS Release: 7.0.0-38-generic
+Nov 15 12:03:59 KimAmirOSA25 kernel: 12:03:59.596190 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:03:59 KimAmirOSA25 kernel: 12:03:59.596555 main     Executable: /usr/sbin/VBoxService
+                                     12:03:59.596556 main     Process ID: 1560
+                                     12:03:59.596556 main     P
+Nov 15 12:03:59 KimAmirOSA25 kernel: 12:03:59.596685 main     Hi, this is guest session ID=1
+Nov 15 12:03:59 KimAmirOSA25 kernel: 12:03:59.597749 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:03:59 KimAmirOSA25 kernel: 12:03:59.599732 main     Error: Error while handling message HOST_MSG_FS_OBJ_QUERY_INFO (0x14e, cParms=4), rc=VERR_FILE_NOT_FOU
+Nov 15 12:03:59 KimAmirOSA25 kernel: 12:03:59.601889 main     Session 1 is about to close ...
+Nov 15 12:03:59 KimAmirOSA25 kernel: 12:03:59.602080 main     Stopping all guest processes ...
+Nov 15 12:03:59 KimAmirOSA25 kernel: 12:03:59.602157 main     Closing all guest files ...
+Nov 15 12:03:59 KimAmirOSA25 kernel: 12:03:59.602228 main     Session 1 ended
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.325728 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:04:1
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.325893 main     OS Product: Linux
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.325955 main     OS Release: 7.0.0-38-generic
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.326025 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.326128 main     Executable: /usr/sbin/VBoxService
+                                     12:04:18.326128 main     Process ID: 1581
+                                     12:04:18.326129 main     P
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.326256 main     Hi, this is guest session ID=1
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.326980 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.328632 main     VbglR3GuestCtrlProcGetStart: Retrieving
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.328915 main     VbglR3GuestCtrlProcGetStart: Returning VINF_SUCCESS (retry 0, cbCmd=1024, cbArgs=1024, cbEnv=0)
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.338490 main     Session 1 is about to close ...
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.339037 main     Stopping all guest processes ...
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.339818 main     Closing all guest files ...
+Nov 15 12:04:18 KimAmirOSA25 kernel: 12:04:18.340462 main     Session 1 ended
+Nov 15 12:04:31 KimAmirOSA25 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 3971854125 wd_nsec: 3971852654
+Nov 15 12:04:43 KimAmirOSA25 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 10437450086 wd_nsec: 10437446266
+Nov 15 12:07:22 KimAmirOSA25 kernel: rcu: INFO: rcu_preempt self-detected stall on CPU
+Nov 15 12:07:22 KimAmirOSA25 kernel: watchdog: BUG: soft lockup - CPU#0 stuck for 148s! [stress-ng-vm:1617]
+Nov 15 12:07:22 KimAmirOSA25 kernel: Modules linked in: qrtr vboxsf intel_rapl_msr intel_rapl_common intel_uncore_frequency_common intel_pmc_core pmt_telemetry pmt_discovery pmt_class intel_pmc_ssram_telemetry intel_vsec rapl nfnetlink cfg80211 binfmt_misc vga16fb vgastate raid1 i2c_piix4 i2c_smbus snd_intel8x0 snd_ac97_codec ac97_bus vmwgfx snd_pcm snd_timer snd drm_ttm_helper soundcore ttm input_leds joydev mac_hid sch_fq_codel efi_pstore dm_multipath vsock_loopback vmw_vsock_virtio_transport_common vmw_vsock_vmci_transport vsock vmw_vmci video vboxguest ghash_clmulni_intel psmouse e1000 wmi ahci libahci serio_raw pata_acpi hid_generic usbhid hid msr dmi_sysfs autofs4 aesni_intel
+Nov 15 12:07:22 KimAmirOSA25 kernel: CPU: 0 UID: 1000 PID: 1617 Comm: stress-ng-vm Not tainted 7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:07:22 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:07:22 KimAmirOSA25 kernel: RIP: 0010:handle_softirqs+0x77/0x360
+Nov 15 12:07:22 KimAmirOSA25 kernel: Code: 02 00 01 00 00 4c 89 7d b0 c7 45 b8 0a 00 00 00 89 7d bc 44 89 65 ac 45 89 f4 31 c0 65 66 89 05 c7 f2 fc 02 fb 0f 1f 44 00 00 <41> ba ff ff ff ff 49 c7 c3 c0 80 20 96 45 0f bc d4 45 89 d6 41 83
+Nov 15 12:07:22 KimAmirOSA25 kernel: RSP: 0000:ffffd095810abe80 EFLAGS: 00010246
+Nov 15 12:07:22 KimAmirOSA25 kernel: RAX: 0000000000000000 RBX: ffffd095810abf48 RCX: 0000000000000000
+Nov 15 12:07:22 KimAmirOSA25 kernel: RDX: 0000000000000000 RSI: ffff8ebd0ad42a80 RDI: 0000000000000000
+Nov 15 12:07:22 KimAmirOSA25 kernel: RBP: ffffd095810abed8 R08: 0000000000000000 R09: 0000000000000000
+Nov 15 12:07:22 KimAmirOSA25 kernel: R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000040
+Nov 15 12:07:22 KimAmirOSA25 kernel: R13: 0000000000000000 R14: 0000000000000040 R15: 00000000ffff8179
+Nov 15 12:07:22 KimAmirOSA25 kernel: FS:  0000784062f06b00(0000) GS:ffff8ebde8ffb000(0000) knlGS:0000000000000000
+Nov 15 12:07:22 KimAmirOSA25 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Nov 15 12:07:22 KimAmirOSA25 kernel: CR2: 0000784057121000 CR3: 0000000007b55002 CR4: 00000000000706f0
+Nov 15 12:07:22 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:07:22 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:07:22 KimAmirOSA25 kernel:  ? handle_irq_event+0x53/0x80
+Nov 15 12:07:22 KimAmirOSA25 kernel:  __irq_exit_rcu+0x100/0x120
+Nov 15 12:07:22 KimAmirOSA25 kernel:  ? __common_interrupt+0x50/0x160
+Nov 15 12:07:22 KimAmirOSA25 kernel:  irq_exit_rcu+0xe/0x20
+Nov 15 12:07:22 KimAmirOSA25 kernel:  common_interrupt+0x56/0xe0
+Nov 15 12:07:22 KimAmirOSA25 kernel:  asm_common_interrupt+0x27/0x40
+Nov 15 12:07:22 KimAmirOSA25 kernel: RIP: 0033:0x59e019219976
+Nov 15 12:07:22 KimAmirOSA25 kernel: Code: 05 49 8d 7e 04 41 88 4e 04 ff 15 3d 66 43 00 8d 4b 06 49 8d 7e 05 41 88 4e 05 ff 15 2c 66 43 00 8d 4b 07 41 88 4e 06 0f ae f0 <31> c9 41 38 5e ff 0f 95 c1 4c 01 f9 8d 53 01 41 38 16 0f 95 c2 0f
+Nov 15 12:07:22 KimAmirOSA25 kernel: RSP: 002b:00007ffd763948d0 EFLAGS: 00010202
+Nov 15 12:07:22 KimAmirOSA25 kernel: RAX: ffffffffffffefff RBX: 00000000000000d2 RCX: 00000000000000d9
+Nov 15 12:07:22 KimAmirOSA25 kernel: RDX: 0000000000000000 RSI: 0000784060800000 RDI: 0000784057121fd8
+Nov 15 12:07:22 KimAmirOSA25 kernel: RBP: 00007ffd76394930 R08: fffffffffffff000 R09: 000059e019643fa0
+Nov 15 12:07:22 KimAmirOSA25 kernel: R10: 0000000000000000 R11: 0000000000000293 R12: 00000000000000d3
+Nov 15 12:07:22 KimAmirOSA25 kernel: R13: 00000001a09e497a R14: 0000784057121fd3 R15: 0000000000000000
+Nov 15 12:07:22 KimAmirOSA25 kernel:  </TASK>
+Nov 15 12:07:22 KimAmirOSA25 kernel: rcu:         1-...!: (26 ticks this GP) idle=ee04/1/0x4000000000000000 softirq=7169/7172 fqs=0
+Nov 15 12:07:22 KimAmirOSA25 kernel: rcu:         (t=159405 jiffies g=10489 q=16 ncpus=2)
+Nov 15 12:07:22 KimAmirOSA25 kernel: CPU: 1 UID: 1000 PID: 1618 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:07:22 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:07:22 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:07:22 KimAmirOSA25 kernel: RIP: 0033:0x59e019219976
+Nov 15 12:07:22 KimAmirOSA25 kernel: Code: 05 49 8d 7e 04 41 88 4e 04 ff 15 3d 66 43 00 8d 4b 06 49 8d 7e 05 41 88 4e 05 ff 15 2c 66 43 00 8d 4b 07 41 88 4e 06 0f ae f0 <31> c9 41 38 5e ff 0f 95 c1 4c 01 f9 8d 53 01 41 38 16 0f 95 c2 0f
+Nov 15 12:07:22 KimAmirOSA25 kernel: RSP: 002b:00007ffd763948d0 EFLAGS: 00010202
+Nov 15 12:07:22 KimAmirOSA25 kernel: RAX: ffffffffffffefff RBX: 000000000000005a RCX: 0000000000000061
+Nov 15 12:07:22 KimAmirOSA25 kernel: RDX: 0000000000000000 RSI: 0000784060800000 RDI: 0000784057045d60
+Nov 15 12:07:22 KimAmirOSA25 kernel: RBP: 00007ffd76394930 R08: fffffffffffff000 R09: 000059e019643fa0
+Nov 15 12:07:22 KimAmirOSA25 kernel: R10: 0000000000000000 R11: 0000000000000297 R12: 000000000000005b
+Nov 15 12:07:22 KimAmirOSA25 kernel: R13: 00000001a0908702 R14: 0000784057045d5b R15: 0000000000000000
+Nov 15 12:07:22 KimAmirOSA25 kernel: FS:  0000784062f06b00 GS:  0000000000000000
+Nov 15 12:07:22 KimAmirOSA25 kernel: clocksource: Long readout interval, skipping watchdog check: cs_nsec: 159722312028 wd_nsec: 159722253433
+Nov 15 12:17:23 KimAmirOSA25 kernel: watchdog: BUG: soft lockup - CPU#0 stuck for 257s! [stress-ng-vm:1691]
+Nov 15 12:17:23 KimAmirOSA25 kernel: Modules linked in: qrtr vboxsf intel_rapl_msr intel_rapl_common intel_uncore_frequency_common intel_pmc_core pmt_telemetry pmt_discovery pmt_class intel_pmc_ssram_telemetry intel_vsec rapl nfnetlink cfg80211 binfmt_misc vga16fb vgastate raid1 i2c_piix4 i2c_smbus snd_intel8x0 snd_ac97_codec ac97_bus vmwgfx snd_pcm snd_timer snd drm_ttm_helper soundcore ttm input_leds joydev mac_hid sch_fq_codel efi_pstore dm_multipath vsock_loopback vmw_vsock_virtio_transport_common vmw_vsock_vmci_transport vsock vmw_vmci video vboxguest ghash_clmulni_intel psmouse e1000 wmi ahci libahci serio_raw pata_acpi hid_generic usbhid hid msr dmi_sysfs autofs4 aesni_intel
+Nov 15 12:17:23 KimAmirOSA25 kernel: CPU: 0 UID: 1000 PID: 1691 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:17:23 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:17:23 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:17:23 KimAmirOSA25 kernel: RIP: 0033:0x5f6ac1bb5976
+Nov 15 12:17:23 KimAmirOSA25 kernel: Code: 05 49 8d 7e 04 41 88 4e 04 ff 15 3d 66 43 00 8d 4b 06 49 8d 7e 05 41 88 4e 05 ff 15 2c 66 43 00 8d 4b 07 41 88 4e 06 0f ae f0 <31> c9 41 38 5e ff 0f 95 c1 4c 01 f9 8d 53 01 41 38 16 0f 95 c2 0f
+Nov 15 12:17:23 KimAmirOSA25 kernel: RSP: 002b:00007fff9ac5f820 EFLAGS: 00010206
+Nov 15 12:17:23 KimAmirOSA25 kernel: RAX: ffffffffffffefff RBX: 0000000000000062 RCX: 0000000000000069
+Nov 15 12:17:23 KimAmirOSA25 kernel: RDX: 0000000000000000 RSI: 000076de84600000 RDI: 000076de7f0d4268
+Nov 15 12:17:23 KimAmirOSA25 kernel: RBP: 00007fff9ac5f880 R08: fffffffffffff000 R09: 00005f6ac1fdffa0
+Nov 15 12:17:23 KimAmirOSA25 kernel: R10: 0000000000000000 R11: 0000000000000297 R12: 0000000000000063
+Nov 15 12:17:23 KimAmirOSA25 kernel: R13: 00000001d3d33cb8 R14: 000076de7f0d4263 R15: 0000000000000000
+Nov 15 12:17:23 KimAmirOSA25 kernel: FS:  000076de868cdb00 GS:  0000000000000000
+Nov 15 12:17:23 KimAmirOSA25 kernel: rcu:         1-...!: (1 ticks this GP) idle=4dc4/1/0x4000000000000000 softirq=7659/7659 fqs=0
+Nov 15 12:17:23 KimAmirOSA25 kernel: rcu:         (t=271548 jiffies g=11513 q=193 ncpus=2)
+Nov 15 12:17:23 KimAmirOSA25 kernel: CPU: 1 UID: 1000 PID: 1692 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:17:23 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:17:23 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:17:23 KimAmirOSA25 kernel: RIP: 0033:0x5f6ac1bb5976
+Nov 15 12:17:23 KimAmirOSA25 kernel: Code: 05 49 8d 7e 04 41 88 4e 04 ff 15 3d 66 43 00 8d 4b 06 49 8d 7e 05 41 88 4e 05 ff 15 2c 66 43 00 8d 4b 07 41 88 4e 06 0f ae f0 <31> c9 41 38 5e ff 0f 95 c1 4c 01 f9 8d 53 01 41 38 16 0f 95 c2 0f
+Nov 15 12:17:23 KimAmirOSA25 kernel: RSP: 002b:00007fff9ac5f820 EFLAGS: 00010206
+Nov 15 12:17:23 KimAmirOSA25 kernel: RAX: ffffffffffffefff RBX: 00000000000000c5 RCX: 00000000000000cc
+Nov 15 12:17:23 KimAmirOSA25 kernel: RDX: 0000000000000000 RSI: 000076de84600000 RDI: 000076de7efad1cb
+Nov 15 12:17:23 KimAmirOSA25 kernel: RBP: 00007fff9ac5f880 R08: fffffffffffff000 R09: 00005f6ac1fdffa0
+Nov 15 12:17:23 KimAmirOSA25 kernel: R10: 0000000000000000 R11: 0000000000000293 R12: 00000000000000c6
+Nov 15 12:17:23 KimAmirOSA25 kernel: R13: 00000001d3c0cc1b R14: 000076de7efad1c6 R15: 0000000000000000
+Nov 15 12:17:23 KimAmirOSA25 kernel: FS:  000076de868cdb00 GS:  0000000000000000
+Nov 15 12:17:23 KimAmirOSA25 kernel: rcu: INFO: rcu_preempt detected stalls on CPUs/tasks:
+Nov 15 12:17:23 KimAmirOSA25 kernel: watchdog: BUG: soft lockup - CPU#1 stuck for 279s! [snapd:1381]
+Nov 15 12:17:23 KimAmirOSA25 kernel: Modules linked in: qrtr vboxsf intel_rapl_msr intel_rapl_common intel_uncore_frequency_common intel_pmc_core pmt_telemetry pmt_discovery pmt_class intel_pmc_ssram_telemetry intel_vsec rapl nfnetlink cfg80211 binfmt_misc vga16fb vgastate raid1 i2c_piix4 i2c_smbus snd_intel8x0 snd_ac97_codec ac97_bus vmwgfx snd_pcm snd_timer snd drm_ttm_helper soundcore ttm input_leds joydev mac_hid sch_fq_codel efi_pstore dm_multipath vsock_loopback vmw_vsock_virtio_transport_common vmw_vsock_vmci_transport vsock vmw_vmci video vboxguest ghash_clmulni_intel psmouse e1000 wmi ahci libahci serio_raw pata_acpi hid_generic usbhid hid msr dmi_sysfs autofs4 aesni_intel
+Nov 15 12:17:23 KimAmirOSA25 kernel: CPU: 1 UID: 0 PID: 1381 Comm: snapd Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:17:23 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:17:23 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:17:23 KimAmirOSA25 kernel: RIP: 0033:0x5d53b6d9abf6
+Nov 15 12:17:23 KimAmirOSA25 kernel: Code: cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc 49 3b 66 10 0f 86 9f 00 00 00 55 48 89 e5 48 83 ec 18 31 c9 87 08 <85> c9 74 7d 83 f9 02 75 14 48 89 44 24 28 bb 01 00 00 00 e8 72 82
+Nov 15 12:17:23 KimAmirOSA25 kernel: RSP: 002b:000000c000066f58 EFLAGS: 00010246
+Nov 15 12:17:23 KimAmirOSA25 kernel: RAX: 00005d53b8ee14c0 RBX: 00005d53b8ee33b0 RCX: 0000000000000001
+Nov 15 12:17:23 KimAmirOSA25 kernel: RDX: 0000000000000001 RSI: 00003c000520000d RDI: 0000000001000000
+Nov 15 12:17:23 KimAmirOSA25 kernel: RBP: 000000c000066f70 R08: 0000000000000029 R09: 0000000000000040
+Nov 15 12:17:23 KimAmirOSA25 kernel: R10: 0000000000000007 R11: 0000000000ffffff R12: 0000ffffffffffff
+Nov 15 12:17:23 KimAmirOSA25 kernel: R13: 00007109a8612090 R14: 000000c0000a01c0 R15: 0000000000000000
+Nov 15 12:17:23 KimAmirOSA25 kernel: FS:  00007109a0ff9640 GS:  0000000000000000
+Nov 15 12:17:23 KimAmirOSA25 kernel: rcu:         1-...!: (4 ticks this GP) idle=4dc4/1/0x4000000000000000 softirq=7717/7717 fqs=0
+Nov 15 12:17:23 KimAmirOSA25 kernel: rcu:         Tasks blocked on level-0 rcu_node (CPUs 0-1): P392/1:b..l
+Nov 15 12:17:23 KimAmirOSA25 kernel: rcu:         (detected by 0, t=299937 jiffies, g=11597, q=61 ncpus=2)
+Nov 15 12:17:23 KimAmirOSA25 kernel: task:kworker/u10:26  state:R  running task     stack:0     pid:392   tgid:392   ppid:2      task_flags:0x24208060 flags:0x00080000
+Nov 15 12:17:23 KimAmirOSA25 kernel: Workqueue: writeback wb_workfn (flush-8:0)
+Nov 15 12:17:23 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:17:23 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:17:23 KimAmirOSA25 kernel:  __schedule+0x2bb/0x650
+Nov 15 12:17:23 KimAmirOSA25 kernel:  preempt_schedule+0x4c/0x80
+Nov 15 12:17:23 KimAmirOSA25 kernel:  preempt_schedule_thunk+0x16/0x30
+Nov 15 12:17:23 KimAmirOSA25 kernel:  _raw_spin_unlock_irqrestore+0x42/0x60
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ata_scsi_queuecmd+0x53/0x80
+Nov 15 12:17:23 KimAmirOSA25 kernel:  scsi_dispatch_cmd+0x95/0x290
+Nov 15 12:17:23 KimAmirOSA25 kernel:  scsi_queue_rq+0x62e/0x8e0
+Nov 15 12:17:23 KimAmirOSA25 kernel:  blk_mq_dispatch_rq_list+0x131/0x510
+Nov 15 12:17:23 KimAmirOSA25 kernel:  __blk_mq_do_dispatch_sched+0x2d9/0x360
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ? blk_attempt_req_merge+0xe/0x20
+Nov 15 12:17:23 KimAmirOSA25 kernel:  __blk_mq_sched_dispatch_requests+0x157/0x1a0
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ? _raw_spin_unlock+0xe/0x40
+Nov 15 12:17:23 KimAmirOSA25 kernel:  blk_mq_sched_dispatch_requests+0x2d/0x80
+Nov 15 12:17:23 KimAmirOSA25 kernel:  blk_mq_run_hw_queue+0x2c0/0x330
+Nov 15 12:17:23 KimAmirOSA25 kernel:  blk_mq_dispatch_list+0x159/0x350
+Nov 15 12:17:23 KimAmirOSA25 kernel:  blk_mq_flush_plug_list+0x59/0x1e0
+Nov 15 12:17:23 KimAmirOSA25 kernel:  __blk_flush_plug+0xef/0x150
+Nov 15 12:17:23 KimAmirOSA25 kernel:  blk_finish_plug+0x2c/0x50
+Nov 15 12:17:23 KimAmirOSA25 kernel:  wb_writeback+0x160/0x370
+Nov 15 12:17:23 KimAmirOSA25 kernel:  wb_workfn+0x39e/0x470
+Nov 15 12:17:23 KimAmirOSA25 kernel:  process_one_work+0x1ac/0x3d0
+Nov 15 12:17:23 KimAmirOSA25 kernel:  worker_thread+0x1b8/0x360
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ? __pfx_worker_thread+0x10/0x10
+Nov 15 12:17:23 KimAmirOSA25 kernel:  kthread+0xf7/0x130
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ? __pfx_kthread+0x10/0x10
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ret_from_fork+0x195/0x2a0
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ? __pfx_kthread+0x10/0x10
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ? __pfx_kthread+0x10/0x10
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ret_from_fork_asm+0x1a/0x30
+Nov 15 12:17:23 KimAmirOSA25 kernel:  </TASK>
+Nov 15 12:17:23 KimAmirOSA25 kernel: rcu: rcu_preempt kthread timer wakeup didn't happen for 299934 jiffies! g11597 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x402
+Nov 15 12:17:23 KimAmirOSA25 kernel: rcu:         Possible timer handling issue on cpu=0 timer-softirq=2094
+Nov 15 12:17:23 KimAmirOSA25 kernel: rcu: rcu_preempt kthread starved for 299938 jiffies! g11597 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x402 ->cpu=0
+Nov 15 12:17:23 KimAmirOSA25 kernel: rcu:         Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+Nov 15 12:17:23 KimAmirOSA25 kernel: rcu: RCU grace-period kthread stack dump:
+Nov 15 12:17:23 KimAmirOSA25 kernel: task:rcu_preempt     state:I stack:0     pid:15    tgid:15    ppid:2      task_flags:0x208040 flags:0x00080000
+Nov 15 12:17:23 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:17:23 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:17:23 KimAmirOSA25 kernel:  __schedule+0x2bb/0x650
+Nov 15 12:17:23 KimAmirOSA25 kernel:  schedule+0x27/0xb0
+Nov 15 12:17:23 KimAmirOSA25 kernel:  schedule_timeout+0x88/0x110
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ? __pfx_process_timeout+0x10/0x10
+Nov 15 12:17:23 KimAmirOSA25 kernel:  rcu_gp_fqs_loop+0x102/0x490
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ? __pfx_rcu_gp_kthread+0x10/0x10
+Nov 15 12:17:23 KimAmirOSA25 kernel:  rcu_gp_kthread+0xad/0x120
+Nov 15 12:17:23 KimAmirOSA25 kernel:  kthread+0xf7/0x130
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ? __pfx_kthread+0x10/0x10
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ret_from_fork+0x195/0x2a0
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ? __pfx_kthread+0x10/0x10
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ? __pfx_kthread+0x10/0x10
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ret_from_fork_asm+0x1a/0x30
+Nov 15 12:17:23 KimAmirOSA25 kernel:  </TASK>
+Nov 15 12:17:23 KimAmirOSA25 kernel: rcu: Stack dump where RCU GP kthread last ran:
+Nov 15 12:17:23 KimAmirOSA25 kernel: CPU: 0 UID: 0 PID: 0 Comm: swapper/0 Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:17:23 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:17:23 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:17:23 KimAmirOSA25 kernel: RIP: 0010:pv_native_safe_halt+0xb/0x10
+Nov 15 12:17:23 KimAmirOSA25 kernel: Code: 20 d0 c3 cc cc cc cc 0f 1f 84 00 00 00 00 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 eb 07 0f 00 2d 49 4b 0e 00 fb f4 <e9> 90 4d 01 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 0f
+Nov 15 12:17:23 KimAmirOSA25 kernel: RSP: 0018:ffffffff96203de8 EFLAGS: 00010246
+Nov 15 12:17:23 KimAmirOSA25 kernel: RAX: 0000000000000000 RBX: 0000000000000000 RCX: 0000000000000000
+Nov 15 12:17:23 KimAmirOSA25 kernel: RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000000000000
+Nov 15 12:17:23 KimAmirOSA25 kernel: RBP: ffffffff96203df0 R08: 0000000000000000 R09: 0000000000000000
+Nov 15 12:17:23 KimAmirOSA25 kernel: R10: 0000000000000000 R11: 0000000000000000 R12: ffffffff962134c0
+Nov 15 12:17:23 KimAmirOSA25 kernel: R13: 0000000000000000 R14: ffffffff96c33480 R15: 0000000000000000
+Nov 15 12:17:23 KimAmirOSA25 kernel: FS:  0000000000000000(0000) GS:ffff8ebde8ffb000(0000) knlGS:0000000000000000
+Nov 15 12:17:23 KimAmirOSA25 kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+Nov 15 12:17:23 KimAmirOSA25 kernel: CR2: 000063e86e2174f8 CR3: 0000000008792003 CR4: 00000000000706f0
+Nov 15 12:17:23 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:17:23 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:17:23 KimAmirOSA25 kernel:  ? default_idle+0x9/0x30
+Nov 15 12:17:23 KimAmirOSA25 kernel:  arch_cpu_idle+0x9/0x10
+Nov 15 12:17:23 KimAmirOSA25 kernel:  default_idle_call+0x2f/0x130
+Nov 15 12:17:23 KimAmirOSA25 kernel:  cpuidle_idle_call+0x114/0x1f0
+Nov 15 12:17:23 KimAmirOSA25 kernel:  do_idle+0x94/0xf0
+Nov 15 12:17:23 KimAmirOSA25 kernel:  cpu_startup_entry+0x29/0x30
+Nov 15 12:17:23 KimAmirOSA25 kernel:  rest_init+0xef/0xf0
+Nov 15 12:17:23 KimAmirOSA25 kernel:  start_kernel+0x4b4/0x4c0
+Nov 15 12:17:23 KimAmirOSA25 kernel:  x86_64_start_reservations+0x24/0x30
+Nov 15 12:17:23 KimAmirOSA25 kernel:  x86_64_start_kernel+0x134/0x140
+Nov 15 12:17:23 KimAmirOSA25 kernel:  common_startup_64+0x13e/0x141
+Nov 15 12:17:23 KimAmirOSA25 kernel:  </TASK>
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-networkd.service: Watchdog timeout (limit 3min)!
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-networkd.service: Killing process 929 (systemd-network) with signal SIGABRT.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-logind.service: Watchdog timeout (limit 3min)!
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-logind.service: Killing process 1649 (systemd-logind) with signal SIGABRT.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: snapd.service: Watchdog timeout (limit 5min)!
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: snapd.service: Killing process 1123 (snapd) with signal SIGABRT.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: Stopping systemd-networkd-persistent-storage.service - Enable Persistent Storage in systemd-networkd...
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-networkd-wait-online.service: Deactivated successfully.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: Stopped systemd-networkd-wait-online.service - Wait for Network to be Online.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: snapd.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: snapd.service: Failed with result 'watchdog'.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-timedated.service: Failed with result 'timeout'.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: Failed to start systemd-timedated.service - Time & Date Service.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: sysstat-collect.service: Deactivated successfully.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: snapd.service: Scheduled restart job, restart counter is at 1.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup skipped, unmet condition check ConditionFileIsExecutable=/usr/bin/ovs-vsctl
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: Starting snapd.service - Snap Daemon...
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-journald.service: Main process exited, code=dumped, status=6/ABRT
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-journald.service: Scheduled restart job, restart counter is at 2.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: Starting systemd-journald.service - Journal Service...
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: update-notifier-download.service: Deactivated successfully.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: Finished update-notifier-download.service - Download data for packages that failed at package install time.
+Nov 15 12:17:23 KimAmirOSA25 systemd-journald[1736]: Collecting audit messages is disabled.
+Nov 15 12:17:23 KimAmirOSA25 systemd-journald[1736]: File /var/log/journal/e7121fdf13a049e0b2bd014af1ea894f/system.journal corrupted or uncleanly shut down, renaming and replacing.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-networkd.service: Main process exited, code=dumped, status=6/ABRT
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-networkd.service: Failed with result 'watchdog'.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-logind.service: Main process exited, code=dumped, status=6/ABRT
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-logind.service: Failed with result 'watchdog'.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-networkd.service: Scheduled restart job, restart counter is at 1.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: systemd-logind.service: Scheduled restart job, restart counter is at 2.
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: modprobe@drm.service - Load Kernel Module drm skipped, unmet condition check ConditionKernelModuleLoaded=!drm
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup skipped, unmet condition check ConditionFileIsExecutable=/usr/bin/ovs-vsctl
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: Starting systemd-logind.service - User Login Management...
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: Starting systemd-networkd.service - Network Management...
+Nov 15 12:17:23 KimAmirOSA25 systemd[1]: Started systemd-journald.service - Journal Service.
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.586288 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:17:2
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.586575 control  Error: Reporting session error status on open failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.588916 main     OS Product: Linux
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.589539 main     OS Release: 7.0.0-38-generic
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.590101 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.590571 control  Error: Reporting session error status on open failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.590664 main     Executable: /usr/sbin/VBoxService
+                                     12:17:23.590664 main     Process ID: 1802
+                                     12:17:23.590665 main     P
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.591950 main     Hi, this is guest session ID=1
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.592766 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.593076 main     Error: Reporting session ID=1 started status failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.647819 gctls3   Error: Reporting final status of session ID=1 failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.708743 control  Error: Reporting session error status on open failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.710061 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:17:2
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.710622 control  Error: Reporting session error status on open failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.710991 main     OS Product: Linux
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.713746 main     OS Release: 7.0.0-38-generic
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.713855 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.713961 main     Executable: /usr/sbin/VBoxService
+                                     12:17:23.713962 main     Process ID: 1854
+                                     12:17:23.713962 main     P
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.714763 main     Hi, this is guest session ID=1
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.717978 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.719931 main     Error: Reporting session ID=1 started status failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:17:23 KimAmirOSA25 kernel: loop5: detected capacity change from 0 to 8
+Nov 15 12:17:23 KimAmirOSA25 kernel: 12:17:23.807442 gctls4   Error: Reporting final status of session ID=1 failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.040618 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:17:5
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.040858 main     OS Product: Linux
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.040938 main     OS Release: 7.0.0-38-generic
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.041017 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.041133 main     Executable: /usr/sbin/VBoxService
+                                     12:17:53.041133 main     Process ID: 1940
+                                     12:17:53.041134 main     P
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.041277 main     Hi, this is guest session ID=1
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.041997 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.043689 main     VbglR3GuestCtrlProcGetStart: Retrieving
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.044120 main     VbglR3GuestCtrlProcGetStart: Returning VINF_SUCCESS (retry 0, cbCmd=1024, cbArgs=1024, cbEnv=0)
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.069217 main     Session 1 is about to close ...
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.069660 main     Stopping all guest processes ...
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.069760 main     Closing all guest files ...
+Nov 15 12:17:53 KimAmirOSA25 kernel: 12:17:53.069836 main     Session 1 ended
+Nov 15 12:22:22 KimAmirOSA25 kernel: rcu: INFO: rcu_preempt self-detected stall on CPU
+Nov 15 12:22:22 KimAmirOSA25 kernel: watchdog: BUG: soft lockup - CPU#0 stuck for 245s! [stress-ng-vm:1912]
+Nov 15 12:22:22 KimAmirOSA25 kernel: Modules linked in: qrtr vboxsf intel_rapl_msr intel_rapl_common intel_uncore_frequency_common intel_pmc_core pmt_telemetry pmt_discovery pmt_class intel_pmc_ssram_telemetry intel_vsec rapl nfnetlink cfg80211 binfmt_misc vga16fb vgastate raid1 i2c_piix4 i2c_smbus snd_intel8x0 snd_ac97_codec ac97_bus vmwgfx snd_pcm snd_timer snd drm_ttm_helper soundcore ttm input_leds joydev mac_hid sch_fq_codel efi_pstore dm_multipath vsock_loopback vmw_vsock_virtio_transport_common vmw_vsock_vmci_transport vsock vmw_vmci video vboxguest ghash_clmulni_intel psmouse e1000 wmi ahci libahci serio_raw pata_acpi hid_generic usbhid hid msr dmi_sysfs autofs4 aesni_intel
+Nov 15 12:22:22 KimAmirOSA25 kernel: CPU: 0 UID: 1000 PID: 1912 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:22:22 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:22:22 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:22:22 KimAmirOSA25 kernel: RIP: 0033:0x5f979fb83976
+Nov 15 12:22:22 KimAmirOSA25 kernel: Code: 05 49 8d 7e 04 41 88 4e 04 ff 15 3d 66 43 00 8d 4b 06 49 8d 7e 05 41 88 4e 05 ff 15 2c 66 43 00 8d 4b 07 41 88 4e 06 0f ae f0 <31> c9 41 38 5e ff 0f 95 c1 4c 01 f9 8d 53 01 41 38 16 0f 95 c2 0f
+Nov 15 12:22:22 KimAmirOSA25 kernel: RSP: 002b:00007ffedbff09d0 EFLAGS: 00010202
+Nov 15 12:22:22 KimAmirOSA25 kernel: RAX: ffffffffffffefff RBX: 0000000000000096 RCX: 000000000000009d
+Nov 15 12:22:22 KimAmirOSA25 kernel: RDX: 0000000000000000 RSI: 000073c18d000000 RDI: 000073c17deba19c
+Nov 15 12:22:22 KimAmirOSA25 kernel: RBP: 00007ffedbff0a30 R08: fffffffffffff000 R09: 00005f979ffadfa0
+Nov 15 12:22:22 KimAmirOSA25 kernel: R10: 0000000000000000 R11: 0000000000000283 R12: 0000000000000097
+Nov 15 12:22:22 KimAmirOSA25 kernel: R13: 00000002b53b65c0 R14: 000073c17deba197 R15: 0000000000000000
+Nov 15 12:22:22 KimAmirOSA25 kernel: FS:  000073c18f706b00 GS:  0000000000000000
+Nov 15 12:22:22 KimAmirOSA25 kernel: rcu:         1-...!: (1 GPs behind) idle=c504/1/0x4000000000000000 softirq=9313/9314 fqs=1
+Nov 15 12:22:22 KimAmirOSA25 kernel: rcu:         (t=263068 jiffies g=13717 q=109 ncpus=2)
+Nov 15 12:22:22 KimAmirOSA25 kernel: CPU: 1 UID: 1000 PID: 1911 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:22:22 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:22:22 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:22:22 KimAmirOSA25 kernel: RIP: 0033:0x5f979fb83976
+Nov 15 12:22:22 KimAmirOSA25 kernel: Code: 05 49 8d 7e 04 41 88 4e 04 ff 15 3d 66 43 00 8d 4b 06 49 8d 7e 05 41 88 4e 05 ff 15 2c 66 43 00 8d 4b 07 41 88 4e 06 0f ae f0 <31> c9 41 38 5e ff 0f 95 c1 4c 01 f9 8d 53 01 41 38 16 0f 95 c2 0f
+Nov 15 12:22:22 KimAmirOSA25 kernel: RSP: 002b:00007ffedbff09d0 EFLAGS: 00010206
+Nov 15 12:22:22 KimAmirOSA25 kernel: RAX: ffffffffffffefff RBX: 0000000000000034 RCX: 000000000000003b
+Nov 15 12:22:22 KimAmirOSA25 kernel: RDX: 0000000000000000 RSI: 000073c18d000000 RDI: 000073c17de5ab3a
+Nov 15 12:22:22 KimAmirOSA25 kernel: RBP: 00007ffedbff0a30 R08: fffffffffffff000 R09: 00005f979ffadfa0
+Nov 15 12:22:22 KimAmirOSA25 kernel: R10: 0000000000000000 R11: 0000000000000283 R12: 0000000000000035
+Nov 15 12:22:22 KimAmirOSA25 kernel: R13: 00000002b5356f5e R14: 000073c17de5ab35 R15: 0000000000000000
+Nov 15 12:22:22 KimAmirOSA25 kernel: FS:  000073c18f706b00 GS:  0000000000000000
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.100048 control  Error: Reporting session error status on open failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.105046 control  Error: Reporting session error status on open failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.106451 control  Error: Reporting session error status on open failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.107811 control  Error: Reporting session error status on open failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.114106 control  Error: Reporting session error status on open failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.143961 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:22:2
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.144157 main     OS Product: Linux
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.144234 main     OS Release: 7.0.0-38-generic
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.144551 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.144686 main     Executable: /usr/sbin/VBoxService
+                                     12:22:23.144687 main     Process ID: 1984
+                                     12:22:23.144687 main     P
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.145095 main     Hi, this is guest session ID=1
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.147638 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.148202 main     Error: Reporting session ID=1 started status failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:22:23 KimAmirOSA25 kernel: 12:22:23.198586 gctls6   Error: Reporting final status of session ID=1 failed with rc=VERR_INVALID_SESSION_ID
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.450044 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:29:1
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.451341 main     OS Product: Linux
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.451806 main     OS Release: 7.0.0-38-generic
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.452364 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.452835 main     Executable: /usr/sbin/VBoxService
+                                     12:29:17.452835 main     Process ID: 2081
+                                     12:29:17.452836 main     P
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.452976 main     Hi, this is guest session ID=1
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.453608 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.455357 main     VbglR3GuestCtrlProcGetStart: Retrieving
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.455665 main     VbglR3GuestCtrlProcGetStart: Returning VINF_SUCCESS (retry 0, cbCmd=1024, cbArgs=1024, cbEnv=0)
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.472498 main     Session 1 is about to close ...
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.472646 main     Stopping all guest processes ...
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.472727 main     Closing all guest files ...
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.472799 main     Session 1 ended
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.891973 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:29:1
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.892149 main     OS Product: Linux
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.892217 main     OS Release: 7.0.0-38-generic
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.892295 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.892398 main     Executable: /usr/sbin/VBoxService
+                                     12:29:17.892399 main     Process ID: 2106
+                                     12:29:17.892399 main     P
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.892526 main     Hi, this is guest session ID=1
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.893056 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.894414 main     VbglR3GuestCtrlProcGetStart: Retrieving
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.894934 main     VbglR3GuestCtrlProcGetStart: Returning VINF_SUCCESS (retry 0, cbCmd=1024, cbArgs=1024, cbEnv=0)
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.905763 main     Session 1 is about to close ...
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.905868 main     Stopping all guest processes ...
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.905947 main     Closing all guest files ...
+Nov 15 12:29:17 KimAmirOSA25 kernel: 12:29:17.906019 main     Session 1 ended
+Nov 15 12:29:52 KimAmirOSA25 kernel: 12:29:52.576191 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:29:5
+Nov 15 12:29:52 KimAmirOSA25 kernel: 12:29:52.576380 main     OS Product: Linux
+Nov 15 12:29:52 KimAmirOSA25 kernel: 12:29:52.576445 main     OS Release: 7.0.0-38-generic
+Nov 15 12:29:52 KimAmirOSA25 kernel: 12:29:52.576510 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:29:52 KimAmirOSA25 kernel: 12:29:52.576611 main     Executable: /usr/sbin/VBoxService
+                                     12:29:52.576612 main     Process ID: 2131
+                                     12:29:52.576612 main     P
+Nov 15 12:29:52 KimAmirOSA25 kernel: 12:29:52.576872 main     Hi, this is guest session ID=1
+Nov 15 12:29:52 KimAmirOSA25 kernel: 12:29:52.577563 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:29:52 KimAmirOSA25 kernel: 12:29:52.588218 main     Session 1 is about to close ...
+Nov 15 12:29:52 KimAmirOSA25 kernel: 12:29:52.588578 main     Stopping all guest processes ...
+Nov 15 12:29:52 KimAmirOSA25 kernel: 12:29:52.588660 main     Closing all guest files ...
+Nov 15 12:29:52 KimAmirOSA25 kernel: 12:29:52.588735 main     Session 1 ended
+Nov 15 12:29:58 KimAmirOSA25 kernel: 12:29:58.333846 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:29:5
+Nov 15 12:29:58 KimAmirOSA25 kernel: 12:29:58.334022 main     OS Product: Linux
+Nov 15 12:29:58 KimAmirOSA25 kernel: 12:29:58.334089 main     OS Release: 7.0.0-38-generic
+Nov 15 12:29:58 KimAmirOSA25 kernel: 12:29:58.334159 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:29:58 KimAmirOSA25 kernel: 12:29:58.334625 main     Executable: /usr/sbin/VBoxService
+                                     12:29:58.334626 main     Process ID: 2152
+                                     12:29:58.334626 main     P
+Nov 15 12:29:58 KimAmirOSA25 kernel: 12:29:58.334768 main     Hi, this is guest session ID=1
+Nov 15 12:29:58 KimAmirOSA25 kernel: 12:29:58.335175 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:29:58 KimAmirOSA25 kernel: 12:29:58.343453 main     Session 1 is about to close ...
+Nov 15 12:29:58 KimAmirOSA25 kernel: 12:29:58.343564 main     Stopping all guest processes ...
+Nov 15 12:29:58 KimAmirOSA25 kernel: 12:29:58.343640 main     Closing all guest files ...
+Nov 15 12:29:58 KimAmirOSA25 kernel: 12:29:58.343711 main     Session 1 ended
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.399064 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:30:4
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.400409 main     OS Product: Linux
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.400812 main     OS Release: 7.0.0-38-generic
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.401428 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.401808 main     Executable: /usr/sbin/VBoxService
+                                     12:30:48.401809 main     Process ID: 2179
+                                     12:30:48.401809 main     P
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.401943 main     Hi, this is guest session ID=1
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.402716 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.403709 main     VbglR3GuestCtrlProcGetStart: Retrieving
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.403960 main     VbglR3GuestCtrlProcGetStart: Returning VINF_SUCCESS (retry 0, cbCmd=1024, cbArgs=1024, cbEnv=0)
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.430224 main     Session 1 is about to close ...
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.430450 main     Stopping all guest processes ...
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.430536 main     Closing all guest files ...
+Nov 15 12:30:48 KimAmirOSA25 kernel: 12:30:48.430608 main     Session 1 ended
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.205145 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:30:5
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.205339 main     OS Product: Linux
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.205416 main     OS Release: 7.0.0-38-generic
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.205490 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.205594 main     Executable: /usr/sbin/VBoxService
+                                     12:30:56.205594 main     Process ID: 2203
+                                     12:30:56.205594 main     P
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.205731 main     Hi, this is guest session ID=1
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.206474 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.211464 main     Session 1 is about to close ...
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.211567 main     Stopping all guest processes ...
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.211642 main     Closing all guest files ...
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.211714 main     Session 1 ended
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.380590 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:30:5
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.380802 main     OS Product: Linux
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.380899 main     OS Release: 7.0.0-38-generic
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.380978 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.381089 main     Executable: /usr/sbin/VBoxService
+                                     12:30:56.381089 main     Process ID: 2224
+                                     12:30:56.381090 main     P
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.381230 main     Hi, this is guest session ID=1
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.382571 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.387964 main     Session 1 is about to close ...
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.388073 main     Stopping all guest processes ...
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.388148 main     Closing all guest files ...
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.388218 main     Session 1 ended
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.569987 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:30:5
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.570158 main     OS Product: Linux
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.570225 main     OS Release: 7.0.0-38-generic
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.570296 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.570398 main     Executable: /usr/sbin/VBoxService
+                                     12:30:56.570399 main     Process ID: 2245
+                                     12:30:56.570399 main     P
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.570526 main     Hi, this is guest session ID=1
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.571214 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.576402 main     Session 1 is about to close ...
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.576495 main     Stopping all guest processes ...
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.576570 main     Closing all guest files ...
+Nov 15 12:30:56 KimAmirOSA25 kernel: 12:30:56.576640 main     Session 1 ended
+Nov 15 12:41:42 KimAmirOSA25 kernel: 12:41:42.292069 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:41:4
+Nov 15 12:41:42 KimAmirOSA25 kernel: 12:41:42.292480 main     OS Product: Linux
+Nov 15 12:41:42 KimAmirOSA25 kernel: 12:41:42.292559 main     OS Release: 7.0.0-38-generic
+Nov 15 12:41:42 KimAmirOSA25 kernel: 12:41:42.292632 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
+Nov 15 12:41:42 KimAmirOSA25 kernel: 12:41:42.292738 main     Executable: /usr/sbin/VBoxService
+                                     12:41:42.292738 main     Process ID: 2279
+                                     12:41:42.292739 main     P
+Nov 15 12:41:42 KimAmirOSA25 kernel: 12:41:42.292868 main     Hi, this is guest session ID=1
+Nov 15 12:41:42 KimAmirOSA25 kernel: 12:41:42.293687 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Nov 15 12:41:42 KimAmirOSA25 kernel: 12:41:42.294875 main     VbglR3GuestCtrlProcGetStart: Retrieving
+Nov 15 12:41:42 KimAmirOSA25 kernel: 12:41:42.295002 main     VbglR3GuestCtrlProcGetStart: Returning VINF_SUCCESS (retry 0, cbCmd=1024, cbArgs=1024, cbEnv=0)

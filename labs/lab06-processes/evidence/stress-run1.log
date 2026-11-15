@@ -1,0 +1,24 @@
+stress-ng: info:  [1611] setting to a 1 min run per stressor
+stress-ng: info:  [1611] dispatching hogs: 2 vm
+stress-ng: info:  [1615] vm: using 292.77MB per stressor instance (total 585.54MB of 836.49MB available memory)
+stress-ng: info:  [1611] skipped: 0
+stress-ng: info:  [1611] passed: 2: vm (2)
+stress-ng: info:  [1611] failed: 0
+stress-ng: info:  [1611] metrics untrustworthy: 0
+stress-ng: info:  [1611] successful run completed in 2 mins 55.82 secs
+stress-ng: info:  [1688] setting to a 1 min run per stressor
+stress-ng: info:  [1688] dispatching hogs: 2 vm
+stress-ng: info:  [1689] vm: using 325.14MB per stressor instance (total 650.29MB of 722.54MB available memory)
+stress-ng: info:  [1688] skipped: 0
+stress-ng: info:  [1688] passed: 2: vm (2)
+stress-ng: info:  [1688] failed: 0
+stress-ng: info:  [1688] metrics untrustworthy: 0
+stress-ng: info:  [1688] successful run completed in 9 mins 50.21 secs
+stress-ng: info:  [1908] setting to a 1 min 30 secs run per stressor
+stress-ng: info:  [1908] dispatching hogs: 2 vm
+stress-ng: info:  [1909] vm: using 486.76MB per stressor instance (total 973.52MB of 810.84MB available memory)
+stress-ng: info:  [1908] skipped: 0
+stress-ng: info:  [1908] passed: 2: vm (2)
+stress-ng: info:  [1908] failed: 0
+stress-ng: info:  [1908] metrics untrustworthy: 0
+stress-ng: info:  [1908] successful run completed in 4 mins 49.75 secs

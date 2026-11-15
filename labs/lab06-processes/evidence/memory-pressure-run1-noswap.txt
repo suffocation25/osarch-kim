@@ -1,0 +1,118 @@
+=== BEFORE Sun Nov 15 12:04:18 PM UTC 2026 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       371Mi       855Mi       1.1Mi       560Mi       1.2Gi
+Swap:             0B          0B          0B
+=== DURING 12:04:18 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       371Mi       855Mi       1.1Mi       560Mi       1.2Gi
+Swap:             0B          0B          0B
+=== DURING 12:04:21 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       371Mi       855Mi       1.1Mi       560Mi       1.2Gi
+Swap:             0B          0B          0B
+=== DURING 12:04:24 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       371Mi       855Mi       1.1Mi       560Mi       1.2Gi
+Swap:             0B          0B          0B
+### stress-ng --vm 2 --vm-bytes 70% --timeout 60s  start 12:04:27
+=== DURING 12:04:27 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       368Mi       844Mi       1.1Mi       575Mi       1.2Gi
+Swap:             0B          0B          0B
+=== DURING 12:04:32 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       977Mi       226Mi       1.3Mi       584Mi       664Mi
+Swap:             0B          0B          0B
+=== DURING 12:04:43 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.0Gi       188Mi       1.3Mi       584Mi       626Mi
+Swap:             0B          0B          0B
+=== DURING 12:07:22 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       694Mi       509Mi       1.3Mi       584Mi       947Mi
+Swap:             0B          0B          0B
+### end 12:07:23
+=== DURING 12:07:26 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       485Mi       641Mi       1.1Mi       663Mi       1.1Gi
+Swap:             0B          0B          0B
+=== DURING 12:07:29 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       442Mi       685Mi       1.1Mi       663Mi       1.2Gi
+Swap:             0B          0B          0B
+=== DURING 12:07:32 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       413Mi       713Mi       1.1Mi       663Mi       1.2Gi
+Swap:             0B          0B          0B
+### stress-ng --vm 2 --vm-bytes 90% --timeout 60s  start 12:07:33
+=== DURING 12:07:37 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.0Gi       110Mi       1.3Mi       641Mi       603Mi
+Swap:             0B          0B          0B
+=== DURING 12:07:41 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       997Mi       152Mi       1.3Mi       641Mi       645Mi
+Swap:             0B          0B          0B
+=== DURING 12:07:46 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       993Mi       221Mi       1.3Mi       575Mi       648Mi
+Swap:             0B          0B          0B
+=== DURING 12:07:51 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       648Mi       567Mi       1.3Mi       575Mi       994Mi
+Swap:             0B          0B          0B
+### end 12:17:23
+=== DURING 12:17:26 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       479Mi       715Mi       1.1Mi       595Mi       1.1Gi
+Swap:             0B          0B          0B
+=== DURING 12:17:29 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       428Mi       766Mi       1.1Mi       595Mi       1.2Gi
+Swap:             0B          0B          0B
+=== DURING 12:17:32 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       383Mi       812Mi       1.1Mi       595Mi       1.2Gi
+Swap:             0B          0B          0B
+### stress-ng --vm 2 --vm-bytes 120% --timeout 90s  start 12:17:33
+=== DURING 12:17:35 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       971Mi       473Mi       1.3Mi       346Mi       671Mi
+Swap:             0B          0B          0B
+=== DURING 12:17:39 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.1Gi       344Mi       1.3Mi       346Mi       542Mi
+Swap:             0B          0B          0B
+=== DURING 12:17:52 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       910Mi       542Mi       1.3Mi       338Mi       732Mi
+Swap:             0B          0B          0B
+=== DURING 12:17:55 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.4Gi        85Mi       1.3Mi       260Mi       197Mi
+Swap:             0B          0B          0B
+=== DURING 12:17:59 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.3Gi       202Mi       1.3Mi       260Mi       314Mi
+Swap:             0B          0B          0B
+=== DURING 12:22:23 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       867Mi       661Mi       1.3Mi       261Mi       775Mi
+Swap:             0B          0B          0B
+### end 12:22:23
+=== DURING 12:22:26 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       478Mi       1.0Gi       1.1Mi       296Mi       1.1Gi
+Swap:             0B          0B          0B
+=== DURING 12:22:29 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       436Mi       1.0Gi       1.1Mi       296Mi       1.2Gi
+Swap:             0B          0B          0B
+=== DURING 12:22:32 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       408Mi       1.1Gi       1.1Mi       296Mi       1.2Gi
+Swap:             0B          0B          0B
+=== AFTER Sun Nov 15 12:22:33 PM UTC 2026 ===
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       404Mi       1.1Gi       1.1Mi       296Mi       1.2Gi
+Swap:             0B          0B          0B

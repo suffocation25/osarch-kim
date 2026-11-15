@@ -1,0 +1,336 @@
+Nov 15 12:44:26 KimAmirOSA25 systemd-journald[1736]: Under memory pressure, flushing caches.
+Nov 15 12:44:28 KimAmirOSA25 kernel: workqueue: blk_mq_run_work_fn hogged CPU for >10000us 11 times, consider switching to WQ_UNBOUND
+Nov 15 12:44:29 KimAmirOSA25 kernel: workqueue: blk_mq_run_work_fn hogged CPU for >10000us 19 times, consider switching to WQ_UNBOUND
+Nov 15 12:44:37 KimAmirOSA25 kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 12:44:37 KimAmirOSA25 kernel: CPU: 1 UID: 1000 PID: 2493 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:44:37 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:44:37 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:44:37 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:44:37 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:44:37 KimAmirOSA25 kernel:  show_stack+0x49/0x60
+Nov 15 12:44:37 KimAmirOSA25 kernel:  dump_stack_lvl+0x5f/0x90
+Nov 15 12:44:37 KimAmirOSA25 kernel:  dump_stack+0x10/0x18
+Nov 15 12:44:37 KimAmirOSA25 kernel:  dump_header+0x48/0x1c7
+Nov 15 12:44:37 KimAmirOSA25 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 15 12:44:37 KimAmirOSA25 kernel:  out_of_memory+0xff/0x2b0
+Nov 15 12:44:37 KimAmirOSA25 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 15 12:44:37 KimAmirOSA25 kernel:  __alloc_pages_slowpath.constprop.0+0x3e0/0x9b0
+Nov 15 12:44:37 KimAmirOSA25 kernel:  __alloc_frozen_pages_noprof+0x327/0x360
+Nov 15 12:44:37 KimAmirOSA25 kernel:  alloc_pages_mpol+0x88/0x1b0
+Nov 15 12:44:37 KimAmirOSA25 kernel:  folio_alloc_noprof+0x62/0x100
+Nov 15 12:44:37 KimAmirOSA25 kernel:  filemap_alloc_folio_noprof+0x61/0x80
+Nov 15 12:44:37 KimAmirOSA25 kernel:  __filemap_get_folio_mpol+0x201/0x340
+Nov 15 12:44:37 KimAmirOSA25 kernel:  filemap_fault+0x112/0xce0
+--
+Nov 15 12:44:37 KimAmirOSA25 kernel: [   2492]  1000  2492    17189      305        1      304         0    86016      375             0 stress-ng-vm
+Nov 15 12:44:37 KimAmirOSA25 kernel: [   2493]  1000  2493   692189   352634   352488      146         0  4972544   256970          1000 stress-ng-vm
+Nov 15 12:44:37 KimAmirOSA25 kernel: [   2512]  1000  2512     4028      978      306      672         0    77824        0             0 sleep
+Nov 15 12:44:37 KimAmirOSA25 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-c1.scope,task=stress-ng-vm,pid=2493,uid=1000
+Nov 15 12:44:37 KimAmirOSA25 kernel: Out of memory: Killed process 2493 (stress-ng-vm) total-vm:2768756kB, anon-rss:1409952kB, file-rss:584kB, shmem-rss:0kB, UID:1000 pgtables:4856kB oom_score_adj:1000
+Nov 15 12:44:37 KimAmirOSA25 kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 15 12:44:37 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2513, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:37 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2513, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:37 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2513, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:37 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2513, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:37 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2513, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:37 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2513, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:37 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2513, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:37 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2513, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:37 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2513, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:37 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2513, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:47 KimAmirOSA25 kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 12:44:47 KimAmirOSA25 kernel: CPU: 1 UID: 1000 PID: 2513 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:44:47 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:44:47 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:44:47 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:44:47 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:44:47 KimAmirOSA25 kernel:  show_stack+0x49/0x60
+Nov 15 12:44:47 KimAmirOSA25 kernel:  dump_stack_lvl+0x5f/0x90
+Nov 15 12:44:47 KimAmirOSA25 kernel:  dump_stack+0x10/0x18
+Nov 15 12:44:47 KimAmirOSA25 kernel:  dump_header+0x48/0x1c7
+Nov 15 12:44:47 KimAmirOSA25 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 15 12:44:47 KimAmirOSA25 kernel:  out_of_memory+0xff/0x2b0
+Nov 15 12:44:47 KimAmirOSA25 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 15 12:44:47 KimAmirOSA25 kernel:  __alloc_pages_slowpath.constprop.0+0x3e0/0x9b0
+Nov 15 12:44:47 KimAmirOSA25 kernel:  __alloc_frozen_pages_noprof+0x327/0x360
+Nov 15 12:44:48 KimAmirOSA25 kernel:  alloc_pages_mpol+0x88/0x1b0
+Nov 15 12:44:48 KimAmirOSA25 kernel:  vma_alloc_folio_noprof+0x6b/0xe0
+Nov 15 12:44:48 KimAmirOSA25 kernel:  alloc_anon_folio+0x1f2/0x4b0
+Nov 15 12:44:48 KimAmirOSA25 kernel:  do_anonymous_page+0x14a/0x4d0
+Nov 15 12:44:48 KimAmirOSA25 kernel:  ? __pte_offset_map+0x1c/0x130
+--
+Nov 15 12:44:48 KimAmirOSA25 kernel: [   2492]  1000  2492    17189      338       17      320         1    86016      359             0 stress-ng-vm
+Nov 15 12:44:48 KimAmirOSA25 kernel: [   2513]  1000  2513   692189   353195   353048      146         1  4972544   256632          1000 stress-ng-vm
+Nov 15 12:44:48 KimAmirOSA25 kernel: [   2520]  1000  2520     3999      361       34      327         0    57344        0             0 date
+Nov 15 12:44:48 KimAmirOSA25 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-c1.scope,task=stress-ng-vm,pid=2513,uid=1000
+Nov 15 12:44:48 KimAmirOSA25 kernel: Out of memory: Killed process 2513 (stress-ng-vm) total-vm:2768756kB, anon-rss:1412192kB, file-rss:584kB, shmem-rss:4kB, UID:1000 pgtables:4856kB oom_score_adj:1000
+Nov 15 12:44:48 KimAmirOSA25 kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 15 12:44:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2522, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2522, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2522, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2522, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2522, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2522, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2522, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2522, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2522, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2522, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:57 KimAmirOSA25 kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 12:44:57 KimAmirOSA25 kernel: CPU: 0 UID: 1000 PID: 2522 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:44:57 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:44:57 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:44:57 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:44:57 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:44:57 KimAmirOSA25 kernel:  show_stack+0x49/0x60
+Nov 15 12:44:57 KimAmirOSA25 kernel:  dump_stack_lvl+0x5f/0x90
+Nov 15 12:44:57 KimAmirOSA25 kernel:  dump_stack+0x10/0x18
+Nov 15 12:44:57 KimAmirOSA25 kernel:  dump_header+0x48/0x1c7
+Nov 15 12:44:57 KimAmirOSA25 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 15 12:44:57 KimAmirOSA25 kernel:  out_of_memory+0xff/0x2b0
+Nov 15 12:44:57 KimAmirOSA25 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 15 12:44:57 KimAmirOSA25 kernel:  __alloc_pages_slowpath.constprop.0+0x3e0/0x9b0
+Nov 15 12:44:57 KimAmirOSA25 kernel:  __alloc_frozen_pages_noprof+0x327/0x360
+Nov 15 12:44:57 KimAmirOSA25 kernel:  alloc_pages_mpol+0x88/0x1b0
+Nov 15 12:44:57 KimAmirOSA25 kernel:  vma_alloc_folio_noprof+0x6b/0xe0
+Nov 15 12:44:57 KimAmirOSA25 kernel:  alloc_anon_folio+0x1f2/0x4b0
+Nov 15 12:44:57 KimAmirOSA25 kernel:  do_anonymous_page+0x14a/0x4d0
+Nov 15 12:44:57 KimAmirOSA25 kernel:  ? __pte_offset_map+0x1c/0x130
+--
+Nov 15 12:44:57 KimAmirOSA25 kernel: [   2492]  1000  2492    17189      340       19      320         1    86016      357             0 stress-ng-vm
+Nov 15 12:44:57 KimAmirOSA25 kernel: [   2522]  1000  2522   692189   351419   351271      147         1  4956160   256100          1000 stress-ng-vm
+Nov 15 12:44:57 KimAmirOSA25 kernel: [   2529]  1000  2529     4028      978      306      672         0    73728        0             0 sleep
+Nov 15 12:44:57 KimAmirOSA25 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-c1.scope,task=stress-ng-vm,pid=2522,uid=1000
+Nov 15 12:44:57 KimAmirOSA25 kernel: Out of memory: Killed process 2522 (stress-ng-vm) total-vm:2768756kB, anon-rss:1405084kB, file-rss:588kB, shmem-rss:4kB, UID:1000 pgtables:4840kB oom_score_adj:1000
+Nov 15 12:44:57 KimAmirOSA25 kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 15 12:44:57 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2530, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:57 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2530, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:57 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2530, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:57 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2530, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:57 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2530, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:57 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2530, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:57 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2530, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:57 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2530, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:57 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2530, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:44:57 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2530, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:03 KimAmirOSA25 kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 12:45:03 KimAmirOSA25 kernel: CPU: 1 UID: 1000 PID: 2530 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:45:03 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:45:03 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:45:03 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:45:03 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:45:03 KimAmirOSA25 kernel:  show_stack+0x49/0x60
+Nov 15 12:45:03 KimAmirOSA25 kernel:  dump_stack_lvl+0x5f/0x90
+Nov 15 12:45:03 KimAmirOSA25 kernel:  dump_stack+0x10/0x18
+Nov 15 12:45:03 KimAmirOSA25 kernel:  dump_header+0x48/0x1c7
+Nov 15 12:45:03 KimAmirOSA25 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 15 12:45:03 KimAmirOSA25 kernel:  out_of_memory+0xff/0x2b0
+Nov 15 12:45:03 KimAmirOSA25 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 15 12:45:03 KimAmirOSA25 kernel:  __alloc_pages_slowpath.constprop.0+0x3e0/0x9b0
+Nov 15 12:45:03 KimAmirOSA25 kernel:  __alloc_frozen_pages_noprof+0x327/0x360
+Nov 15 12:45:03 KimAmirOSA25 kernel:  alloc_pages_mpol+0x88/0x1b0
+Nov 15 12:45:03 KimAmirOSA25 kernel:  folio_alloc_noprof+0x62/0x100
+Nov 15 12:45:03 KimAmirOSA25 kernel:  filemap_alloc_folio_noprof+0x61/0x80
+Nov 15 12:45:03 KimAmirOSA25 kernel:  __filemap_get_folio_mpol+0x201/0x340
+Nov 15 12:45:03 KimAmirOSA25 kernel:  filemap_fault+0x112/0xce0
+--
+Nov 15 12:45:03 KimAmirOSA25 kernel: [   2492]  1000  2492    17189      345       24      320         1    86016      352             0 stress-ng-vm
+Nov 15 12:45:03 KimAmirOSA25 kernel: [   2530]  1000  2530   692189   352780   352632      146         2  4964352   256061          1000 stress-ng-vm
+Nov 15 12:45:03 KimAmirOSA25 kernel: [   2536]  1000  2536     4028      952      306      646         0    77824        0             0 sleep
+Nov 15 12:45:03 KimAmirOSA25 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-c1.scope,task=stress-ng-vm,pid=2530,uid=1000
+Nov 15 12:45:03 KimAmirOSA25 kernel: Out of memory: Killed process 2530 (stress-ng-vm) total-vm:2768756kB, anon-rss:1410528kB, file-rss:584kB, shmem-rss:8kB, UID:1000 pgtables:4848kB oom_score_adj:1000
+Nov 15 12:45:03 KimAmirOSA25 kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 15 12:45:03 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2537, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:03 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2537, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:03 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2537, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:03 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2537, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:03 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2537, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:03 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2537, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:03 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2537, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+--
+Nov 15 12:45:03 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2537, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:03 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2537, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:13 KimAmirOSA25 kernel: workqueue: blk_mq_run_work_fn hogged CPU for >10000us 35 times, consider switching to WQ_UNBOUND
+Nov 15 12:45:13 KimAmirOSA25 kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 12:45:13 KimAmirOSA25 kernel: CPU: 0 UID: 1000 PID: 2537 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:45:13 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:45:13 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:45:13 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:45:13 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:45:13 KimAmirOSA25 kernel:  show_stack+0x49/0x60
+Nov 15 12:45:13 KimAmirOSA25 kernel:  dump_stack_lvl+0x5f/0x90
+Nov 15 12:45:13 KimAmirOSA25 kernel:  dump_stack+0x10/0x18
+Nov 15 12:45:13 KimAmirOSA25 kernel:  dump_header+0x48/0x1c7
+Nov 15 12:45:13 KimAmirOSA25 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 15 12:45:13 KimAmirOSA25 kernel:  out_of_memory+0xff/0x2b0
+Nov 15 12:45:13 KimAmirOSA25 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 15 12:45:13 KimAmirOSA25 kernel:  __alloc_pages_slowpath.constprop.0+0x3e0/0x9b0
+Nov 15 12:45:13 KimAmirOSA25 kernel:  __alloc_frozen_pages_noprof+0x327/0x360
+Nov 15 12:45:13 KimAmirOSA25 kernel:  alloc_pages_mpol+0x88/0x1b0
+Nov 15 12:45:13 KimAmirOSA25 kernel:  vma_alloc_folio_noprof+0x6b/0xe0
+Nov 15 12:45:13 KimAmirOSA25 kernel:  alloc_anon_folio+0x1f2/0x4b0
+Nov 15 12:45:13 KimAmirOSA25 kernel:  do_anonymous_page+0x14a/0x4d0
+Nov 15 12:45:13 KimAmirOSA25 kernel:  ? __pte_offset_map+0x1c/0x130
+--
+Nov 15 12:45:13 KimAmirOSA25 kernel: [   2492]  1000  2492    17189      325        5      320         0    86016      371             0 stress-ng-vm
+Nov 15 12:45:13 KimAmirOSA25 kernel: [   2537]  1000  2537   692189   354396   354250      146         0  4964352   254437          1000 stress-ng-vm
+Nov 15 12:45:13 KimAmirOSA25 kernel: [   2546]  1000  2546     4028      973      305      668         0    77824        0             0 sleep
+Nov 15 12:45:13 KimAmirOSA25 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-c1.scope,task=stress-ng-vm,pid=2537,uid=1000
+Nov 15 12:45:13 KimAmirOSA25 kernel: Out of memory: Killed process 2537 (stress-ng-vm) total-vm:2768756kB, anon-rss:1417000kB, file-rss:584kB, shmem-rss:0kB, UID:1000 pgtables:4848kB oom_score_adj:1000
+Nov 15 12:45:13 KimAmirOSA25 kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 15 12:45:13 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2548, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:13 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2548, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:13 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2548, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:13 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2548, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:13 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2548, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:13 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2548, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:13 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2548, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:13 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2548, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:13 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2548, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:13 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2548, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:21 KimAmirOSA25 kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 12:45:21 KimAmirOSA25 kernel: CPU: 0 UID: 1000 PID: 2548 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:45:21 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:45:21 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:45:21 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:45:21 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:45:21 KimAmirOSA25 kernel:  show_stack+0x49/0x60
+Nov 15 12:45:21 KimAmirOSA25 kernel:  dump_stack_lvl+0x5f/0x90
+Nov 15 12:45:21 KimAmirOSA25 kernel:  dump_stack+0x10/0x18
+Nov 15 12:45:21 KimAmirOSA25 kernel:  dump_header+0x48/0x1c7
+Nov 15 12:45:21 KimAmirOSA25 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 15 12:45:21 KimAmirOSA25 kernel:  out_of_memory+0xff/0x2b0
+Nov 15 12:45:21 KimAmirOSA25 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 15 12:45:21 KimAmirOSA25 kernel:  __alloc_pages_slowpath.constprop.0+0x3e0/0x9b0
+Nov 15 12:45:21 KimAmirOSA25 kernel:  __alloc_frozen_pages_noprof+0x327/0x360
+Nov 15 12:45:21 KimAmirOSA25 kernel:  alloc_pages_mpol+0x88/0x1b0
+Nov 15 12:45:21 KimAmirOSA25 kernel:  folio_alloc_noprof+0x62/0x100
+Nov 15 12:45:21 KimAmirOSA25 kernel:  filemap_alloc_folio_noprof+0x61/0x80
+Nov 15 12:45:21 KimAmirOSA25 kernel:  __filemap_get_folio_mpol+0x201/0x340
+Nov 15 12:45:21 KimAmirOSA25 kernel:  filemap_fault+0x112/0xce0
+--
+Nov 15 12:45:21 KimAmirOSA25 kernel: [   2492]  1000  2492    17189      335       15      320         0    86016      361             0 stress-ng-vm
+Nov 15 12:45:21 KimAmirOSA25 kernel: [   2548]  1000  2548   692189   354620   354474      146         0  4964352   253895          1000 stress-ng-vm
+Nov 15 12:45:21 KimAmirOSA25 kernel: [   2554]  1000  2554     4028      976      305      671         0    77824        0             0 sleep
+Nov 15 12:45:21 KimAmirOSA25 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-c1.scope,task=stress-ng-vm,pid=2548,uid=1000
+Nov 15 12:45:21 KimAmirOSA25 kernel: Out of memory: Killed process 2548 (stress-ng-vm) total-vm:2768756kB, anon-rss:1417896kB, file-rss:584kB, shmem-rss:0kB, UID:1000 pgtables:4848kB oom_score_adj:1000
+Nov 15 12:45:21 KimAmirOSA25 kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 15 12:45:21 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2555, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:21 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2555, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:21 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2555, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:21 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2555, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:21 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2555, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:21 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2555, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:21 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2555, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+--
+Nov 15 12:45:21 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2555, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:29 KimAmirOSA25 kernel: workqueue: blk_mq_run_work_fn hogged CPU for >10000us 67 times, consider switching to WQ_UNBOUND
+Nov 15 12:45:30 KimAmirOSA25 systemd-journald[1736]: Under memory pressure, flushing caches.
+Nov 15 12:45:34 KimAmirOSA25 kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 12:45:34 KimAmirOSA25 kernel: CPU: 0 UID: 1000 PID: 2555 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:45:34 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:45:34 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:45:34 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:45:34 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:45:34 KimAmirOSA25 kernel:  show_stack+0x49/0x60
+Nov 15 12:45:34 KimAmirOSA25 kernel:  dump_stack_lvl+0x5f/0x90
+Nov 15 12:45:34 KimAmirOSA25 kernel:  dump_stack+0x10/0x18
+Nov 15 12:45:34 KimAmirOSA25 kernel:  dump_header+0x48/0x1c7
+Nov 15 12:45:34 KimAmirOSA25 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 15 12:45:34 KimAmirOSA25 kernel:  out_of_memory+0xff/0x2b0
+Nov 15 12:45:34 KimAmirOSA25 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 15 12:45:34 KimAmirOSA25 kernel:  __alloc_pages_slowpath.constprop.0+0x3e0/0x9b0
+Nov 15 12:45:34 KimAmirOSA25 kernel:  __alloc_frozen_pages_noprof+0x327/0x360
+Nov 15 12:45:34 KimAmirOSA25 kernel:  alloc_pages_mpol+0x88/0x1b0
+Nov 15 12:45:34 KimAmirOSA25 kernel:  vma_alloc_folio_noprof+0x6b/0xe0
+Nov 15 12:45:34 KimAmirOSA25 kernel:  alloc_anon_folio+0x1f2/0x4b0
+Nov 15 12:45:34 KimAmirOSA25 kernel:  do_anonymous_page+0x14a/0x4d0
+Nov 15 12:45:34 KimAmirOSA25 kernel:  ? __pte_offset_map+0x1c/0x130
+--
+Nov 15 12:45:34 KimAmirOSA25 kernel: [   2492]  1000  2492    17189      335       14      320         1    86016      362             0 stress-ng-vm
+Nov 15 12:45:34 KimAmirOSA25 kernel: [   2555]  1000  2555   692189   354888   354741      146         1  4964352   253627          1000 stress-ng-vm
+Nov 15 12:45:34 KimAmirOSA25 kernel: [   2569]  1000  2569     4028      970      306      664         0    77824        0             0 sleep
+Nov 15 12:45:34 KimAmirOSA25 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-c1.scope,task=stress-ng-vm,pid=2555,uid=1000
+Nov 15 12:45:34 KimAmirOSA25 kernel: Out of memory: Killed process 2555 (stress-ng-vm) total-vm:2768756kB, anon-rss:1418964kB, file-rss:584kB, shmem-rss:4kB, UID:1000 pgtables:4848kB oom_score_adj:1000
+Nov 15 12:45:34 KimAmirOSA25 kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 15 12:45:34 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2570, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:34 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2570, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:34 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2570, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:34 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2570, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:34 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2570, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:34 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2570, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:34 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2570, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+--
+Nov 15 12:45:34 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2570, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:34 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2570, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:48 KimAmirOSA25 kernel: workqueue: blk_mq_run_work_fn hogged CPU for >10000us 131 times, consider switching to WQ_UNBOUND
+Nov 15 12:45:48 KimAmirOSA25 kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 12:45:48 KimAmirOSA25 kernel: CPU: 1 UID: 1000 PID: 2570 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:45:48 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:45:48 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:45:48 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:45:48 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:45:48 KimAmirOSA25 kernel:  show_stack+0x49/0x60
+Nov 15 12:45:48 KimAmirOSA25 kernel:  dump_stack_lvl+0x5f/0x90
+Nov 15 12:45:48 KimAmirOSA25 kernel:  dump_stack+0x10/0x18
+Nov 15 12:45:48 KimAmirOSA25 kernel:  dump_header+0x48/0x1c7
+Nov 15 12:45:48 KimAmirOSA25 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 15 12:45:48 KimAmirOSA25 kernel:  out_of_memory+0xff/0x2b0
+Nov 15 12:45:48 KimAmirOSA25 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 15 12:45:48 KimAmirOSA25 kernel:  __alloc_pages_slowpath.constprop.0+0x3e0/0x9b0
+Nov 15 12:45:48 KimAmirOSA25 kernel:  __alloc_frozen_pages_noprof+0x327/0x360
+Nov 15 12:45:48 KimAmirOSA25 kernel:  alloc_pages_mpol+0x88/0x1b0
+Nov 15 12:45:48 KimAmirOSA25 kernel:  vma_alloc_folio_noprof+0x6b/0xe0
+Nov 15 12:45:48 KimAmirOSA25 kernel:  alloc_anon_folio+0x1f2/0x4b0
+Nov 15 12:45:48 KimAmirOSA25 kernel:  do_anonymous_page+0x14a/0x4d0
+Nov 15 12:45:48 KimAmirOSA25 kernel:  ? __pte_offset_map+0x1c/0x130
+--
+Nov 15 12:45:48 KimAmirOSA25 kernel: [   2492]  1000  2492    17189      339       18      320         1    86016      358             0 stress-ng-vm
+Nov 15 12:45:48 KimAmirOSA25 kernel: [   2570]  1000  2570   692189   355221   355073      146         2  4964352   253560          1000 stress-ng-vm
+Nov 15 12:45:48 KimAmirOSA25 kernel: [   2579]  1000  2579     4028      973      305      668         0    81920        0             0 sleep
+Nov 15 12:45:48 KimAmirOSA25 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-c1.scope,task=stress-ng-vm,pid=2570,uid=1000
+Nov 15 12:45:48 KimAmirOSA25 kernel: Out of memory: Killed process 2570 (stress-ng-vm) total-vm:2768756kB, anon-rss:1420292kB, file-rss:584kB, shmem-rss:8kB, UID:1000 pgtables:4848kB oom_score_adj:1000
+Nov 15 12:45:48 KimAmirOSA25 kernel: __vm_enough_memory: 54 callbacks suppressed
+Nov 15 12:45:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2580, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2580, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2580, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2580, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2580, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2580, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2580, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2580, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2580, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:45:48 KimAmirOSA25 kernel: __vm_enough_memory: pid: 2580, comm: stress-ng-vm, bytes: 3145728000 not enough memory for the allocation
+Nov 15 12:47:23 KimAmirOSA25 kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 12:47:23 KimAmirOSA25 kernel: CPU: 1 UID: 1000 PID: 2580 Comm: stress-ng-vm Tainted: G             L      7.0.0-38-generic #38-Ubuntu PREEMPT(lazy) 
+Nov 15 12:47:23 KimAmirOSA25 kernel: Tainted: [L]=SOFTLOCKUP
+Nov 15 12:47:23 KimAmirOSA25 kernel: Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Nov 15 12:47:23 KimAmirOSA25 kernel: Call Trace:
+Nov 15 12:47:23 KimAmirOSA25 kernel:  <TASK>
+Nov 15 12:47:23 KimAmirOSA25 kernel:  show_stack+0x49/0x60
+Nov 15 12:47:23 KimAmirOSA25 kernel:  dump_stack_lvl+0x5f/0x90
+Nov 15 12:47:23 KimAmirOSA25 kernel:  dump_stack+0x10/0x18
+Nov 15 12:47:23 KimAmirOSA25 kernel:  dump_header+0x48/0x1c7
+Nov 15 12:47:23 KimAmirOSA25 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 15 12:47:23 KimAmirOSA25 kernel:  out_of_memory+0xff/0x2b0
+Nov 15 12:47:23 KimAmirOSA25 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 15 12:47:23 KimAmirOSA25 kernel:  __alloc_pages_slowpath.constprop.0+0x3e0/0x9b0
+Nov 15 12:47:23 KimAmirOSA25 kernel:  __alloc_frozen_pages_noprof+0x327/0x360
+Nov 15 12:47:23 KimAmirOSA25 kernel:  alloc_pages_mpol+0x88/0x1b0
+Nov 15 12:47:23 KimAmirOSA25 kernel:  folio_alloc_noprof+0x62/0x100
+Nov 15 12:47:23 KimAmirOSA25 kernel:  filemap_alloc_folio_noprof+0x61/0x80
+Nov 15 12:47:23 KimAmirOSA25 kernel:  __filemap_get_folio_mpol+0x201/0x340
+Nov 15 12:47:23 KimAmirOSA25 kernel:  filemap_fault+0x112/0xce0
+--
+Nov 15 12:47:23 KimAmirOSA25 kernel: [   2492]  1000  2492    17189      339       18      320         1    86016      358             0 stress-ng-vm
+Nov 15 12:47:23 KimAmirOSA25 kernel: [   2580]  1000  2580   692189   355504   355357      146         1  4964352   253205          1000 stress-ng-vm
+Nov 15 12:47:23 KimAmirOSA25 kernel: [   2593]  1000  2593     4028      973      305      668         0    77824        0             0 sleep
+Nov 15 12:47:23 KimAmirOSA25 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-c1.scope,task=stress-ng-vm,pid=2580,uid=1000
+Nov 15 12:47:23 KimAmirOSA25 kernel: Out of memory: Killed process 2580 (stress-ng-vm) total-vm:2768756kB, anon-rss:1421428kB, file-rss:584kB, shmem-rss:4kB, UID:1000 pgtables:4848kB oom_score_adj:1000
+Nov 15 12:47:23 KimAmirOSA25 kernel: oom_reaper: reaped process 2580 (stress-ng-vm), now anon-rss:0kB, file-rss:0kB, shmem-rss:4kB
+Nov 15 12:47:23 KimAmirOSA25 systemd-journald[1736]: Under memory pressure, flushing caches.
+Nov 15 12:47:26 KimAmirOSA25 systemd-journald[1736]: Under memory pressure, flushing caches.
+Nov 15 12:48:08 KimAmirOSA25 kernel: 12:48:08.874228 main     VBoxService 7.2.6_Ubuntu r172322 (verbosity: 0) linux.amd64 (Apr  7 2026 21:07:58) release log
+                                     12:48:0
+Nov 15 12:48:08 KimAmirOSA25 kernel: 12:48:08.875590 main     OS Product: Linux
+Nov 15 12:48:08 KimAmirOSA25 kernel: 12:48:08.875989 main     OS Release: 7.0.0-38-generic
+Nov 15 12:48:08 KimAmirOSA25 kernel: 12:48:08.876670 main     OS Version: #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026
